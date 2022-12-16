@@ -1,8 +1,17 @@
-title: Tony Menzo
+title: <strong> Tony Menzo </strong>
 description: Research portfolio
 theme: just-the-docs
+color_scheme: theme
 
 url: https://tonymenzo.github.io/tonymenzo
 
-aux_links: # remove if you don't want this link to appear on your pages
-  Template Repository: https://github.com/tonymenzo/tonymenzo
+compress_html:
+  blanklines: true
+  
+mathjax:
+  source: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML
+  config: 'MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } })'
+
+#aux_links: # remove if you don't want this link to appear on your pages
+  #Template Repository: https://github.com/tonymenzo/tonymenzo
+
