@@ -37,4 +37,3 @@ mathjax: true
 </p>
 <p>&nbsp;</p>
 This should be saying something about my coding projects.
-

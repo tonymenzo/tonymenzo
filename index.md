@@ -1,7 +1,7 @@
 ---
 title: About
 layout: home
-nav_order: 4
+nav_order: 5
 ---
 <!--- <h2 align="center"> <strong> Tony Menzo </strong> </h2> --->
 <p align="center">

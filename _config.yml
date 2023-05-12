@@ -1,17 +1,27 @@
-title: <strong> Tony Menzo </strong>
+title: Tony Menzo
 description: Research portfolio
 theme: just-the-docs
-color_scheme: theme
+color_scheme: menzo_theme
+
+permalink: pretty
 
 url: https://tonymenzo.github.io/tonymenzo
 
 compress_html:
   blanklines: true
-  
+
 mathjax:
   source: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML
   config: 'MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } })'
 
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.6"
+  # Put any additional configuration, such as setting the theme, in _includes/mermaid_config.js
+  # See also docs/ui-components/code
+
+#footer_content: "Copyright & copy; 2022 Tony Menzo."
+
 #aux_links: # remove if you don't want this link to appear on your pages
   #Template Repository: https://github.com/tonymenzo/tonymenzo
-

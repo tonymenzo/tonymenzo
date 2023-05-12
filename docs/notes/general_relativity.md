@@ -34,17 +34,22 @@ layout: default
 <p align="center">
     <h2 align="center"> <strong> General Relativity </strong> </h2>
 </p>
-<p>&nbsp;</p>
-Here we have notes related to general relativity and cosmology.
+
+***Title***: General Relativity
+
+***Summary***: 
+
+***Download***:  [Menzo --- General Relativity]
 
 <!--- This is how to embed a PDF into the page --->
-<!---
+
 <iframe
 	align="center"
-	src="Menzo_NotesOnGeneralRelativity.pdf#toolbar=0"
+	src="../Menzo-GeneralRelativity.pdf#toolbar=0"
 	width="100%"
 	height="928px"
 	style="border:none"
   frameborder="0"
 ></iframe> 
---->
+
+[Menzo --- General Relativity]: ../Menzo-GeneralRelativity.pdf
