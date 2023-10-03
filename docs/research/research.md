@@ -1,38 +1,11 @@
 ---
 layout: default
 title: Research
-nav_order: 1
+nav_order: 3
 mathjax: true
 ---
-<!---
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      .box {
-        background: #FFFFFF;
-        color: black;
-        border: 1.5px solid black;
-        margin: 0px auto;
-        width: 400px;
-        height: 105px;
-        padding: 0px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="box">
-      <p align="center">
-        <h2 align="center"> <strong> Research </strong> </h2>
-      </p>
-    </div>
-  </body>
-</html>
---->
-<p align="center">
-    <h2 align="center"> <strong> Research </strong> </h2>
-</p>
+# Research 
+{: .fw-700}
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -41,16 +14,16 @@ mathjax: true
 {:toc}
 
 ## Summary
+{: .py-3}
 
 My current research focuses on the exploration of computational methods in high energy physics phenomenology. Specifically on applications of machine learning and optimal-transport-based algorithms in Monte Carlo event generation and charge-parity (CP) observables as well as the development of effective field theory simulations. Additionally I'm very interested in applications of 'top-down' phenomenology involving the tools of gauge/gravity correspondence. Applications to QCD and confining gauge theories exhibiting cascading (tumbling) or walking behavior are of particular interest.
 
-## Completed Projects
+## Completed projects
+{: .py-3}
 
 "***Modeling hadronization using machine learning***" - ***[2203.04983](https://arxiv.org/abs/2203.04983)*** - Authors: Ahmed Youssef, Phil Ilten, *Tony Menzo*, and Jure Zupan
 ><details><summary><strong><em>Abstract</em></strong></summary> 
 We present the first steps in the development of a new class of hadronization models utilizing machine learning techniques. We successfully implement, validate, and train a conditional sliced-Wasserstein autoencoder to replicate the Pythia generated kinematic distributions of first-hadron emissions, when the Lund string model of hadronization implemented in Pythia is restricted to the emissions of pions only. The trained models are then used to generate the full hadronization chains, with an IR cutoff energy imposed externally. The hadron multiplicities and cumulative kinematic distributions are shown to match the Pythia generated ones. We also discuss possible future generalizations of our results.
-
- 
 
 "***On the implications of positive W mass shift***" - ***[2204.05992](https://arxiv.org/abs/2204.05992)*** - Authors: Reuven Balkin, Eric Madge, *Tony Menzo*, Yotam Soreq, Gilad Perez, and Jure Zupan
 ><details><summary><strong><em>Abstract</em></strong></summary> 
@@ -60,15 +33,23 @@ We investigate the phenomenological implications of the recent W mass measuremen
 ><details><summary><strong><em>Abstract</em></strong></summary> 
 We introduce a new unbinned two sample test statistic sensitive to CP violation utilizing the optimal transport plan associated with the Wasserstein (earth mover's) distance. The efficacy of the test statistic is shown via two examples of CP asymmetric distributions with varying sample sizes: the Dalitz distributions of $B^0\rightarrow K^+\pi^-\pi^0$ and  of $'D^0 \rightarrow \pi^+\pi^-\pi^0'$ decays. The windowed version of the Wasserstein distance test statistic is shown to have comparable sensitivity to CP violation as the commonly used energy test statistic, but also retains information about the localized distributions of CP asymmetry over the Dalitz plot. For large statistic datasets we introduce two modified Wasserstein distance based test statistics --- the binned and the sliced Wasserstein distance statistics, which show comparable sensitivity to CP violation, but  improved computing time and memory scalings. Finally, general extensions and applications of the introduced statistics are discussed. 
 
+"***New physics in multi-electron muon decays***" - ***[2306.15631](https://arxiv.org/abs/2306.15631)*** - Authors: Matheus Hostert, *Tony Menzo*, Maxim Pospelov, and Jure Zupan 
+><details><summary><strong><em>Abstract</em></strong></summary> 
+We study the exotic muon decays with five charged tracks in the final state. First, we investigate the Standard Model rate for $\mu \rightarrow 5e$ $(\mathcal{B}=4.0 \times 10^{-10})$ and find that the Mu3e experiment should have tens to hundreds of signal events per $10^{15}$ $\mu^+$ decays, depending on the signal selection strategy. We then turn to a neutrinoless $\mufivee$ decay that may arise in new-physics models with lepton-flavor-violating effective operators involving a dark Higgs $h_d$. Following its production in $\mu^+ \to e^+ h_d$ decays, the dark Higgs can undergo a decay cascade to two $e^+e^-$ pairs through two dark photons, $h_d \to \gamma_d \gamma_d \to 2(e^+e^-)$. We show that a $\mu \rightarrow 5e$ search at the Mu3e experiment, with potential sensitivity to the branching ratio at the $${\mathcal O}(10^{-12})$$ level or below, can explore new regions of parameter space and new physics scales as high as $$ \Lambda \sim 10^{15} $$ GeV.
+
+"***Reweighting Monte Carlo Predictions and Automated Fragmentation Variations in Pythia 8***" - ***[2308.13459](https://arxiv.org/abs/2308.13459)*** - Authors: Christian Bierlich, Phil Ilten, *Tony Menzo*, Stephen Mrenna, Maniel Szwec, Ahmed Youssef, and Jure Zupan 
+><details><summary><strong><em>Abstract</em></strong></summary> 
+This work reports on a method for uncertainty estimation in simulated collider-event predictions. The method is based on a Monte Carlo-veto algorithm, and extends previous work on uncertainty estimates in parton showers by including uncertainty estimates for the Lund string-fragmentation model. This method is advantageous from the perspective of simulation costs: a single ensemble of generated events can be reinterpreted as though it was obtained using a different set of input parameters, where each event now is accompanied with a corresponding weight. This allows for a robust exploration of the uncertainties arising from the choice of input model parameters, without the need to rerun full simulation pipelines for each input parameter choice. Such explorations are important when determining the sensitivities of precision physics measurements. Accompanying code is available at [https://gitlab.com/uchep/mlhad-weights-validation](https://gitlab.com/uchep/mlhad-weights-validation).
+
 
 ## Ongoing projects
+{: .py-3}
 
-'*Modeling hadronization using machine learning: Invertible networks and error estimation*' ---
+'Towards a data-driven model of hadronization using normalizing flows' ---
 
-'*Connecting small and large scales at $$\mu \rightarrow e$$ conversion experiments: an EFT simulation tool*' ---
+'Connecting small and large scales at $$\mu \rightarrow e$$ conversion experiments: an EFT simulation tool' ---
 
-'*Dark matter induced baryogenesis via low-scale leptogenesis*' ---
+'Dark matter induced baryogenesis via low-scale leptogenesis' ---
 
-'*$$\mu \rightarrow 5e$$*'
 
 

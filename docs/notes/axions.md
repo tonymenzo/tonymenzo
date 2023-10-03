@@ -3,7 +3,22 @@ layout: default
 parent: Notes
 title: Axions
 ---
-<p align="center">
-    <h2 align="center"> <strong> Axions </strong> </h2>
-</p>
-<p>&nbsp;</p>
+
+# Axions 
+{: .fw-700}
+
+***Summary***: 
+
+***Download***:  [Menzo --- Axions]
+
+<iframe
+	align="center"
+	src="../pdfs/Menzo-Axions.pdf#toolbar=0"
+	width="100%"
+	height="928px"
+	style="border:none"
+  frameborder="0"
+></iframe>
+{: .text-center}
+
+[Menzo --- Axions]: ../pdfs/Menzo-Axions.pdf

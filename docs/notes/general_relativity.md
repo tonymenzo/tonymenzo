@@ -1,7 +1,7 @@
 ---
 title: General Relativity
 parent: Notes
-has_children: true
+has_children: False
 layout: default
 ---
 <!---
@@ -31,9 +31,12 @@ layout: default
 </html>
 --->
 
-<p align="center">
+<!---<p align="center">
     <h2 align="center"> <strong> General Relativity </strong> </h2>
-</p>
+</p>/--->
+
+# General Relativity 
+{: .fw-700}
 
 ***Title***: General Relativity
 
@@ -45,11 +48,11 @@ layout: default
 
 <iframe
 	align="center"
-	src="../Menzo-GeneralRelativity.pdf#toolbar=0"
+	src="../pdfs/Menzo-GeneralRelativity.pdf#toolbar=0"
 	width="100%"
 	height="928px"
 	style="border:none"
   frameborder="0"
 ></iframe> 
 
-[Menzo --- General Relativity]: ../Menzo-GeneralRelativity.pdf
+[Menzo --- General Relativity]: ../pdfs/Menzo-GeneralRelativity.pdf

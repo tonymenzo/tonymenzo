@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 3
+nav_order: 4
 has_children: True
 title: Notes
 ---
@@ -32,9 +32,11 @@ title: Notes
      </div>
   </body>
 </html>
---->
+
 <p align="center">
         <h2 align="center"> <strong> Notes </strong> </h2>
 </p>
 <p>&nbsp;</p>
-
+--->
+# Notes
+{: .fw-700}
