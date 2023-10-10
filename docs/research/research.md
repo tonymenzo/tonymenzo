@@ -16,9 +16,11 @@ mathjax: true
 ## Summary
 {: .py-3}
 
-My current research focuses on the exploration of computational methods in high energy physics phenomenology. Specifically on applications of machine learning and optimal-transport-based algorithms in Monte Carlo event generation and charge-parity (CP) observables as well as the development of effective field theory simulations. Additionally I'm very interested in applications of 'top-down' phenomenology involving the tools of gauge/gravity correspondence. Applications to QCD and confining gauge theories exhibiting cascading (tumbling) or walking behavior are of particular interest.
+Many sub-fields of physics focus on formulating theories of macroscopic behavior from microscopic dynamics. High energy physics takes this to the extreme by using particle colliders as ''zeptoscopes'' (i.e. machines that can probe distances of $$\approx 10^{-21}$$ meters) to investigate the microscopic properties of fundamental matter. Amazingly, a relatively simple quantitative model, known as the Standard Model (SM) of elementary particle physics, can be used to predict the results of these collider experiments with astounding precision. However, while the SM correctly predicts a vast amount of collected experimental data there remains a subset of observations that are in *tension* with its theoretical predictions. My current research primarily focuses on *understanding* and *bridging* this gap between discrepant theoretical predictions and experimental measurements.
 
-## Completed projects
+My research portfolio can be partitioned into two distinct approaches to this problem: (1) the design and development of numerical and symbolic computational frameworks, methodologies, and algorithms that allow for more precise and accurate comparisons between theory and experiment and (2) the investigation of novel precision tests and extensions beyond the SM (BSM) in the context of currently available and anticipated future experimental data. 
+
+## Publications
 {: .py-3}
 
 "***Modeling hadronization using machine learning***" - ***[2203.04983](https://arxiv.org/abs/2203.04983)*** - Authors: Ahmed Youssef, Phil Ilten, *Tony Menzo*, and Jure Zupan
@@ -42,14 +44,11 @@ We study the exotic muon decays with five charged tracks in the final state. Fir
 This work reports on a method for uncertainty estimation in simulated collider-event predictions. The method is based on a Monte Carlo-veto algorithm, and extends previous work on uncertainty estimates in parton showers by including uncertainty estimates for the Lund string-fragmentation model. This method is advantageous from the perspective of simulation costs: a single ensemble of generated events can be reinterpreted as though it was obtained using a different set of input parameters, where each event now is accompanied with a corresponding weight. This allows for a robust exploration of the uncertainties arising from the choice of input model parameters, without the need to rerun full simulation pipelines for each input parameter choice. Such explorations are important when determining the sensitivities of precision physics measurements. Accompanying code is available at [https://gitlab.com/uchep/mlhad-weights-validation](https://gitlab.com/uchep/mlhad-weights-validation).
 
 
-## Ongoing projects
+## On the horizon
 {: .py-3}
 
-'Towards a data-driven model of hadronization using normalizing flows' ---
+- ***Towards a data-driven model of hadronization using normalizing flows***
 
-'Connecting small and large scales at $$\mu \rightarrow e$$ conversion experiments: an EFT simulation tool' ---
+- ***Connecting small and large scales at $$\mu \rightarrow e$$ conversion experiments: an EFT simulation tool***
 
-'Dark matter induced baryogenesis via low-scale leptogenesis' ---
-
-
-
+- ***Flavorful low-scale leptogenesis***

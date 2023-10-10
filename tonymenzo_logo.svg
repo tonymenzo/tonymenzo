@@ -23,15 +23,16 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.82498569"
-     inkscape:cx="194.54883"
-     inkscape:cy="5.4546401"
-     inkscape:window-width="951"
-     inkscape:window-height="1022"
-     inkscape:window-x="963"
+     inkscape:zoom="2.0237228"
+     inkscape:cx="159.85391"
+     inkscape:cy="-48.672673"
+     inkscape:window-width="1902"
+     inkscape:window-height="1014"
+     inkscape:window-x="5"
      inkscape:window-y="29"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
   <defs
      id="defs1">
     <inkscape:path-effect
@@ -197,6 +198,6 @@
        transform="matrix(0.37624963,0,0,0.37624963,-36.584731,14.676754)"><tspan
          x="85.380859"
          y="92.953344"
-         id="tspan2">Tony Menzo</tspan></text>
+         id="tspan1">Tony Menzo</tspan></text>
   </g>
 </svg>
