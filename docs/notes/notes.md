@@ -40,3 +40,5 @@ title: Notes
 --->
 # Notes
 {: .fw-700}
+
+Here is a small library of my notes that are constantly in flux. 

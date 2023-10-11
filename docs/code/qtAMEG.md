@@ -2,7 +2,7 @@
 layout: default
 parent: Code
 mathjax: true
-title: qtAMEG 
+title: qt-AMEG 
 ---
 # qtAMEG
 {: .fw-700}

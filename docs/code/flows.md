@@ -2,7 +2,7 @@
 layout: default
 parent: Code
 mathjax: true
-title: flows 
+title: FunFlows
 ---
 # flows
 {: .fw-700}
