@@ -16,11 +16,11 @@ mathjax: true
 ## Summary
 {: .py-3}
 
-Many sub-fields of physics focus on formulating theories of macroscopic behavior from microscopic dynamics. High energy physics takes this to the extreme by using particle colliders as ''zeptoscopes'' (i.e. machines that can probe distances of $$\approx 10^{-21}$$ meters) to investigate the microscopic properties of fundamental matter. Amazingly, a relatively simple quantitative model, known as the Standard Model (SM) of elementary particle physics, can be used to predict the results of these collider experiments with astounding precision. However, while the SM correctly predicts a vast amount of collected experimental data there remains a subset of observations that are in *tension* with its theoretical predictions. My current research primarily focuses on *understanding* and *bridging* this gap between discrepant theoretical predictions and experimental measurements.
+Many sub-fields of physics focus on formulating theories of macroscopic behavior from microscopic dynamics. High energy physics takes this to the extreme by using particle colliders as ''zeptoscopes'' (i.e. machines that can probe distances of $$\approx 10^{-21}$$ meters) to investigate the microscopic properties of fundamental matter. A relatively simple quantitative model, known as the Standard Model (SM) of elementary particle physics, can be used to predict the results of these collider experiments with astounding precision. However, while the SM correctly predicts a vast amount of collected experimental data there are still subsets of observations that are in *tension* with its theoretical predictions. My current research primarily focuses on *understanding* and *bridging* this gap between discrepant theoretical predictions and experimental measurements.
 
 My research portfolio is comprised of two distinct approaches to this problem: (1) the design and development of numerical and symbolic computational frameworks, methodologies, and algorithms that allow for more precise and accurate comparisons between theory and experiment and (2) the investigation of novel precision tests and extensions beyond the SM (BSM) in the context of currently available and anticipated future experimental data.
 
-I also have a keen interest in a range of other high-energy physics subjects, including holography, string phenomenology, black holes, and jet phenomenology.
+I also have a keen interest in a range of other subjects in high-energy physics, including holography, string phenomenology, black holes, and jet phenomenology.
 
 ## Publications
 {: .py-3}

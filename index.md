@@ -27,6 +27,6 @@ I'm currently a  P.h.D. candidate (January 2020 - present) at the *University of
 [High Energy Theory Group]: https://sites.google.com/site/hepthuc/home
 [link to my INSPIRE page]: https://inspirehep.net/authors/2049582
 [link to my papers on the arXiv]: https://arxiv.org/search/hep-ph?searchtype=author&query=Menzo%2C+T
-[link to my GitHub page]: www.google.com
+[link to my GitHub page]: https://github.com/tonymenzo
 
 [Dr. Jure Zupan]: https://sites.google.com/site/jurezupan/
