@@ -13,11 +13,11 @@ has_children: false
 
 <iframe
 	align="center"
-	src="../Menzo-CV.pdf#toolbar=0"
+	src="../Menzo_CV.pdf#toolbar=0"
 	width="100%"
 	height="928px"
 	style="border:none"
   frameborder="0"
 ></iframe> 
 
-[Menzo --- CV]: ../Menzo-CV.pdf
+[Menzo --- CV]: ../Menzo_CV.pdf
