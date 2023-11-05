@@ -15,7 +15,7 @@ nav_order: 1
 
 {: .p-5}
 
-I'm currently a  P.h.D. candidate (January 2020 - present) at the *University of Cincinnati* working in the [High Energy Theory Group]. [^1]
+I'm currently a PhD candidate (January 2020 - present) at the *University of Cincinnati* working in the [High Energy Theory Group]. [^1]
 
 - Here's a [link to my INSPIRE page].
 - Here's a [link to my papers on the arXiv].

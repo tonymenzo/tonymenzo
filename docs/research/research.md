@@ -18,7 +18,7 @@ mathjax: true
 
 <!---Many sub-fields of physics focus on formulating theories of macroscopic behavior from microscopic dynamics. High energy physics takes this to the extreme by using particle colliders as ''zeptoscopes'' (i.e. machines that can probe distances of $$\approx 10^{-21}$$ meters) to investigate the microscopic properties of fundamental matter. A relatively simple quantitative model, known as the Standard Model (SM) of elementary particle physics, can be used to predict the results of these collider experiments with astounding precision. However, while the SM correctly predicts a vast amount of collected experimental data there are still subsets of observations that are in *tension* with its theoretical predictions. My research primarily focuses on *understanding* and *bridging* this gap between discrepant theoretical predictions and experimental measurements./--->
 
-My research primarily focuses on *understanding* and *bridging* the gap between discrepant theoretical predictions and experimental measurements.
+My research primarily focuses on *understanding* and *bridging* the gap between discrepant theoretical predictions and experimental measurements within high-energy physics.
 
 My portfolio is comprised of two distinct approaches to this problem: **(1)** the design and development of numerical and symbolic computational frameworks, methodologies, and algorithms that allow for more precise and accurate comparisons between theory and experiment -- here I'm particularly interested in applications of machine learning techniques in this context and **(2)** the investigation of novel precision tests and extensions beyond the SM (BSM) in the context of currently available and anticipated future experimental data. 
 
