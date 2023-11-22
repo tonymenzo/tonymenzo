@@ -47,12 +47,13 @@ We study the exotic muon decays with five charged tracks in the final state. Fir
 <!--- ><details><summary><strong><em>Abstract</em></strong></summary> 
 This work reports on a method for uncertainty estimation in simulated collider-event predictions. The method is based on a Monte Carlo-veto algorithm, and extends previous work on uncertainty estimates in parton showers by including uncertainty estimates for the Lund string-fragmentation model. This method is advantageous from the perspective of simulation costs: a single ensemble of generated events can be reinterpreted as though it was obtained using a different set of input parameters, where each event now is accompanied with a corresponding weight. This allows for a robust exploration of the uncertainties arising from the choice of input model parameters, without the need to rerun full simulation pipelines for each input parameter choice. Such explorations are important when determining the sensitivities of precision physics measurements. Accompanying code is available at [https://gitlab.com/uchep/mlhad-weights-validation](https://gitlab.com/uchep/mlhad-weights-validation)./--->
 
+"***Towards a data-driven model of hadronization using normalizing flows***" - ***[2311.09296](https://arxiv.org/abs/2311.09296)*** - Authors: Christian Bierlich, Phil Ilten, *Tony Menzo*, Stephen Mrenna, Maniel Szwec, Ahmed Youssef, and Jure Zupan
 
 ## On the horizon
 {: .py-3}
 
-- ***Towards a data-driven model of hadronization using normalizing flows***
+- ***Effective theory predictions for $$\mu \rightarrow e$$ conversion***
 
-- ***Exploring effective theories in $$\mu \rightarrow e$$***
+- ***Modeling many body meson decays with normalizing flows***
 
 - ***Flavorful low-scale leptogenesis***

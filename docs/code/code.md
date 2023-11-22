@@ -14,7 +14,7 @@ mathjax: true
 
 Many of my publications have open-source public code associated with them. You can find links to repositories that I've made major contributions below.
 
-- ### [***MLHAD***] (***[2203.04983](https://arxiv.org/abs/2203.04983)***, ***2310.xxxxx***)
+- ### [***MLHAD***] (***[2203.04983](https://arxiv.org/abs/2203.04983)***, ***2311.xxxxx***)
 ><details><summary><strong><em>Summary</em></strong></summary>
   Hadronization is the process by which colored partons (quarks, anti-quarks, and gluons) are converted into colorless composite objects known as hadrons (protons, neutrons, pions, etc.). MLHAD is a machine-learning-based project developing generative machine learning algoirthms and training paradigms to improve phenomenological models of hadronization used by event generators that simulate high energy collision events. 
 
