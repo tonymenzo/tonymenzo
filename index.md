@@ -5,7 +5,7 @@ nav_order: 1
 ---
 <!---<h2 align="center"> <strong> Tony Menzo </strong> </h2>/--->
 <p align="center">
-  <img src="IMG-3019.jpg" alt="drawing" width="300" />
+  <img src="tonymenzo.png" alt="drawing" width="300" />
 </p>
 <!---<h2 align="center"> <strong> Tony Menzo </strong> </h2>/--->
 
@@ -16,6 +16,8 @@ nav_order: 1
 {: .p-5}
 
 I'm currently a PhD candidate (January 2020 - present) at the *University of Cincinnati* working in the [High Energy Theory Group]. [^1]
+
+My research focuses on high energy (particle) physics. More specifically, high energy phenomenology, where theoretical models are used to predict the outcomes of high energy particle experiments.
 
 - Here's a [link to my INSPIRE page].
 - Here's a [link to my papers on the arXiv].
