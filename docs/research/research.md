@@ -20,7 +20,7 @@ mathjax: true
 
 My research primarily focuses on *understanding* and *bridging* the gap between discrepant theoretical predictions and experimental measurements within high-energy physics.
 
-My portfolio is comprised of two distinct approaches to this problem: **(1)** the design and development of numerical and symbolic computational frameworks, methodologies, and algorithms that allow for more precise and accurate comparisons between theory and experiment -- here I'm particularly interested in applications of machine learning techniques in this context and **(2)** the investigation of novel precision tests and extensions beyond the SM (BSM) in the context of currently available and anticipated future experimental data. 
+My portfolio is comprised of two distinct approaches to this problem: *(1)* the design and development of numerical and symbolic computational frameworks, methodologies, and algorithms that allow for more precise and accurate comparisons between theory and experiment -- here I'm particularly interested in applications of machine learning techniques in this context and *(2)* the investigation of novel precision tests and extensions beyond the SM (BSM) in the context of currently available and anticipated future experimental data. 
 
 I also have a keen interest in a range of other subjects in high-energy physics, including holography, string phenomenology, black holes, and jet phenomenology.
 
