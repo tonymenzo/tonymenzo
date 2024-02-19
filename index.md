@@ -17,7 +17,7 @@ nav_order: 1
 
 I'm currently a PhD candidate (January 2020 - present) at the *University of Cincinnati* working in the [High Energy Theory Group]. [^1]
 
-My research focuses on high energy (particle) physics. More specifically, high energy phenomenology, where theoretical models are used to predict the outcomes of high energy particle experiments.
+My research focuses on high energy (particle) physics - specifically high energy phenomenology.
 
 - Here's a [link to my INSPIRE page].
 - Here's a [link to my papers on the arXiv].
