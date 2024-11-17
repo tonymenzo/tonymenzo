@@ -18,14 +18,12 @@ mathjax: true
 
 <!---Many sub-fields of physics focus on formulating theories of macroscopic behavior from microscopic dynamics. High energy physics takes this to the extreme by using particle colliders as ''zeptoscopes'' (i.e. machines that can probe distances of $$\approx 10^{-21}$$ meters) to investigate the microscopic properties of fundamental matter. A relatively simple quantitative model, known as the Standard Model (SM) of elementary particle physics, can be used to predict the results of these collider experiments with astounding precision. However, while the SM correctly predicts a vast amount of collected experimental data there are still subsets of observations that are in *tension* with its theoretical predictions. My research primarily focuses on *understanding* and *bridging* this gap between discrepant theoretical predictions and experimental measurements./--->
 
-My current research primarily focuses on *bridging* the gap between high-scale theoretical models and low-scale experimental observables in high energy particle physics. I facilitate this through *(1)* the design and develop of numerical and symbolic computational frameworks, methodologies, and algorithms that allow for more precise and accurate comparisons between theory and experiment and *(2)* by estimating, investigating, and constraining novel experimental signatures of theoretical predictions using extensions of the Standard Model. 
-
-I also have a keen interest in a range of other subjects in high-energy physics, including holography, string phenomenology, black holes, and jet phenomenology.
+My current research focuses on bridging the gap between high-scale theoretical models and low-scale experimental observables in high-energy particle physics. This involves (1) designing and developing computational frameworks, methodologies, and algorithms to enable more precise and accurate comparisons between theory and experiment, and (2) investigating, estimating, and constraining novel experimental signatures of theoretical predictions within extensions of the Standard Model. More broadly, I am interested in model building, computational physics (including machine learning and optimal transport), hadronization, rare lepton decays, effective field theory, proton decay, the hierarchy problem, gauge/gravity duality, cosmology, string phenomenology, and related areas.
 
 ## Publications
 {: .py-3}
 
-"***Rejection Sampling with Autodifferentiation - Case study: Fitting a Hadronization Model***" - ***[2411.02194](https://arxiv.org/pdf/2411.02194)*** - Authors: Nick Heller, Phil Ilten, *Tony Menzo*, Stephen Mrenna, Benjamin Nachman, Andrzej Siodmok, Maniel Szwec, and Ahmed Youssef
+"***Rejection Sampling with Autodifferentiation - Case study: Fitting a Hadronization Model***" - ***[2411.02194](https://arxiv.org/pdf/2411.02194)*** - Authors: Nick Heller, Phil Ilten, *Tony Menzo*, Stephen Mrenna, Benjamin Nachman, Andrzej Siodmok, Manuel Szwec, and Ahmed Youssef
 
 "***Describing hadronization via Histories and Observables for Monte Carlo Event Reweighting***" - ***[2410.06342](https://arxiv.org/abs/2410.06342)*** - Authors: Christian Bierlich, Phil Ilten, *Tony Menzo*, Stephen Mrenna, Maniel Szwec, Michael Wilkinson, Ahmed Youssef, and Jure Zupan
 
