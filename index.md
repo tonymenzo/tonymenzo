@@ -15,20 +15,20 @@ nav_order: 1
 
 {: .p-5}
 
-I'm currently a PhD candidate (January 2020 - present) at the *University of Cincinnati* working in the [High Energy Theory Group]. [^1]
+I'm currently a PhD candidate (January 2020 - present) at the *University of Cincinnati* working in the [High Energy Theory Group].[^1]
 
-My research focuses on high energy (particle) physics - specifically high energy phenomenology.
+My research focuses on high energy (particle) physics - specifically high energy phenomenology (hep-ph).
 
-- Here's a [link to my INSPIRE page].
-- Here's a [link to my papers on the arXiv].
-- Here's a [link to my GitHub page].
+- [Link to my INSPIRE page].
+- [Link to my papers on the arXiv].
+- [Link to my GitHub page].
 
 ----
 
-[^1]: My advisor is [Dr. Jure Zupan]
+[^1]: My advisor is [Jure Zupan]
 [High Energy Theory Group]: https://sites.google.com/site/hepthuc/home
-[link to my INSPIRE page]: https://inspirehep.net/authors/2049582
-[link to my papers on the arXiv]: https://arxiv.org/search/hep-ph?searchtype=author&query=Menzo%2C+T
-[link to my GitHub page]: https://github.com/tonymenzo
+[Link to my INSPIRE page]: https://inspirehep.net/authors/2049582
+[Link to my papers on the arXiv]: https://arxiv.org/search/hep-ph?searchtype=author&query=Menzo%2C+T
+[Link to my GitHub page]: https://github.com/tonymenzo
 
-[Dr. Jure Zupan]: https://sites.google.com/site/jurezupan/
+[Jure Zupan]: https://sites.google.com/site/jurezupan/

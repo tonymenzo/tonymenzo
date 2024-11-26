@@ -18,6 +18,10 @@ Many of my publications are associated with open-source software. You can find l
 ><details><summary><strong><em>Summary</em></strong></summary>
   Hadronization is the process by which colored partons (quarks, anti-quarks, and gluons) are converted into colorless composite objects known as hadrons (protons, neutrons, pions, etc.). MLHAD is an ongoing research project developing generative machine learning algorithms and training paradigms to improve phenomenological models of hadronization that are widely used in high energy collision event simulations i.e. general-purpose Monte Carlo event generators such as Pythia. 
 
+### [***RSA***] (***[2411.02194](https://arxiv.org/pdf/2411.02194)***)
+><details><summary><strong><em>Summary</em></strong></summary>
+  Rejection sampling with autodifferentiation pairs modern differentiable programming paradigms with 
+
 ### [***EMD4CPV***] (***[2301.13211](https://arxiv.org/abs/2301.13211)***)
 ><details><summary><strong><em>Summary</em></strong></summary>
   Charge-Parity (CP) violation in many-body weak meson decays manifests as local density asymmetries on kinematic (phase-space) graphs known as Dalitz plots. EMD4CPV is a software library that provides a simple interface for the implementation of optimal-transport-based observables utilizing the Earth Mover's Distance (EMD). These observables are sensitive to density asymmetries and thus also sensitive to CP violation within the Dalitz plot.
