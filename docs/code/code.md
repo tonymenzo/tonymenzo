@@ -20,7 +20,7 @@ Many of my publications are associated with open-source software. You can find l
 
 ### [***RSA***] (***[2411.02194](https://arxiv.org/pdf/2411.02194)***)
 ><details><summary><strong><em>Summary</em></strong></summary>
-  Rejection sampling with autodifferentiation pairs modern differentiable programming paradigms with 
+  Rejection sampling with autodifferentiation (RSA) pairs modern differentiable programming paradigms with rejection sampling. 
 
 ### [***EMD4CPV***] (***[2301.13211](https://arxiv.org/abs/2301.13211)***)
 ><details><summary><strong><em>Summary</em></strong></summary>
@@ -35,3 +35,5 @@ Many of my publications are associated with open-source software. You can find l
 [***EMD4CPV***]: https://github.com/adamdddave/emd4cpv
 
 [***MuonBridge***]: https://github.com/Berkeley-Electroweak-Physics/MuonBridge
+
+[***RSA***]: https://github.com/tonymenzo/RSA
