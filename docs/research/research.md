@@ -22,6 +22,7 @@ My current research focuses on bridging the gap between high-scale theoretical m
 
 ## Publications
 {: .py-3}
+"***Searching for exotic scalars at fusion reactors***" - ***[2502.12314](https://arxiv.org/abs/2502.12314)*** - Authors: Chaja Baruch, Patrick Fitzpatrick, *Tony Menzo*, Yotam Soreq, Sokratis Trifinopoulos, and Jure Zupan
 
 "***Rejection Sampling with Autodifferentiation - Case study: Fitting a Hadronization Model***" - ***[2411.02194](https://arxiv.org/pdf/2411.02194)*** - Authors: Nick Heller, Phil Ilten, *Tony Menzo*, Stephen Mrenna, Benjamin Nachman, Andrzej Siodmok, Manuel Szwec, and Ahmed Youssef
 
@@ -67,8 +68,6 @@ This work reports on a method for uncertainty estimation in simulated collider-e
 ## On the horizon
 {: .py-3}
 
-- ***Breeding scalars at fusion reactors***
-
-- ***Detecting dark matter directly with flavor violation***
+- ***Ultralight dark matter detection via charged lepton flavor violation***
 
 - ***Flavorful low-scale leptogenesis***
