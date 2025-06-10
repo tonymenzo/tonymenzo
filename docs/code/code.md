@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Code
-nav_order: 5
+nav_order: 3
 has_children: true
 permalink: docs/code
 mathjax: true
@@ -14,7 +14,7 @@ mathjax: true
 
 Many of my publications are associated with open-source software. You can find links to repositories that I've made major contributions below.
 
-### [***MLHAD***] (***[2203.04983](https://arxiv.org/abs/2203.04983)***, ***[2311.09296](https://arxiv.org/abs/2311.09296)***, ***[2410.06342](https://arxiv.org/abs/2410.06342)***)
+### [***MLHAD***] (***[2203.04983](https://arxiv.org/abs/2203.04983)***, ***[2311.09296](https://arxiv.org/abs/2311.09296)***, ***[2410.06342](https://arxiv.org/abs/2410.06342)***, ***[2411.02194](https://arxiv.org/abs/2411.02194)***, ***[2503.05667](https://arxiv.org/abs/2503.05667)***, ***[2505.00142](https://arxiv.org/abs/2505.00142)***)
 ><details><summary><strong><em>Summary</em></strong></summary>
   Hadronization is the process by which colored partons (quarks, anti-quarks, and gluons) are converted into colorless composite objects known as hadrons (protons, neutrons, pions, etc.). MLHAD is an ongoing research project developing generative machine learning algorithms and training paradigms to improve phenomenological models of hadronization that are widely used in high energy collision event simulations i.e. general-purpose Monte Carlo event generators such as Pythia. 
 

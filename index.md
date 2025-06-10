@@ -1,7 +1,7 @@
 ---
 title: About
-layout: home
-nav_order: 1
+layout: default
+nav_order: 4
 ---
 <!---<h2 align="center"> <strong> Tony Menzo </strong> </h2>/--->
 <p align="center">
@@ -32,3 +32,21 @@ My research focuses on high energy (particle) physics - specifically high energy
 [Link to my GitHub page]: https://github.com/tonymenzo
 
 [Jure Zupan]: https://sites.google.com/site/jurezupan/
+
+### Cirriculum Vitae
+{: .fw-700}
+
+***Download***:  [Menzo --- CV]
+
+<!--- This is how to embed a PDF into the page --->
+
+<iframe
+	align="center"
+	src="docs/Menzo_CV.pdf#toolbar=0"
+	width="100%"
+	height="928px"
+	style="border:none"
+  frameborder="0"
+></iframe> 
+
+[Menzo --- CV]: docs/Menzo_CV.pdf

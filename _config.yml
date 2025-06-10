@@ -1,13 +1,13 @@
 title: Tony Menzo
-description: Research portfolio
+description: Research portfolio and blog
 theme: just-the-docs
 color_scheme: menzo_theme
 
-logo: tonymenzo_logo.png
+logo: images/tonymenzo_logo.png
 
 permalink: pretty
 
-url: https://tonymenzo.github.io
+url: https://tonymenzo.github.io/tonymenzo
 
 compress_html:
   blanklines: true

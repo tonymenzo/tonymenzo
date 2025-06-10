@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: home
 title: Research
-nav_order: 3
+nav_order: 1 
 mathjax: true
 ---
 # Research 
@@ -22,6 +22,10 @@ My current research focuses on bridging the gap between high-scale theoretical m
 
 ## Publications
 {: .py-3}
+"***Post-hoc reweighting of hadron production in the Lund string model***" - ***[2505.00142](https://arxiv.org/abs/2505.00142)*** - Authors: Benoit Assi, Christian Bierlich, Phil Ilten, *Tony Menzo*, Stephen Mrenna, Manuel Szewc, Micheal Wilkinson, Ahmed Youssef, and Jure Zupan
+
+"***Direct Detection of Ultralight Dark Matter via Charged Lepton Flavor Violation***" - ***[2503.07722](https://arxiv.org/abs/2503.07722)*** - Authors: Innes Bigaran, Patrick Fox, Yann Gouttenoire, Roni Harnik, Gordan Krnjaic, *Tony Menzo*, and Jure Zupan
+
 "***Searching for exotic scalars at fusion reactors***" - ***[2502.12314](https://arxiv.org/abs/2502.12314)*** - Authors: Chaja Baruch, Patrick Fitzpatrick, *Tony Menzo*, Yotam Soreq, Sokratis Trifinopoulos, and Jure Zupan
 
 "***Rejection Sampling with Autodifferentiation - Case study: Fitting a Hadronization Model***" - ***[2411.02194](https://arxiv.org/pdf/2411.02194)*** - Authors: Nick Heller, Phil Ilten, *Tony Menzo*, Stephen Mrenna, Benjamin Nachman, Andrzej Siodmok, Manuel Szwec, and Ahmed Youssef
@@ -67,7 +71,5 @@ This work reports on a method for uncertainty estimation in simulated collider-e
 
 ## On the horizon
 {: .py-3}
-
-- ***Ultralight dark matter detection via charged lepton flavor violation***
 
 - ***Flavorful low-scale leptogenesis***
