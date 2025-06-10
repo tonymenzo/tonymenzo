@@ -5,7 +5,7 @@ nav_order: 4
 ---
 <!---<h2 align="center"> <strong> Tony Menzo </strong> </h2>/--->
 <p align="center">
-  <img src="./tonymenzo.png" alt="" width="300" />
+  <img src="../tonymenzo.png" alt="" width="300" />
 </p>
 <!---<h2 align="center"> <strong> Tony Menzo </strong> </h2>/--->
 
@@ -42,11 +42,11 @@ My research focuses on high energy (particle) physics - specifically high energy
 
 <iframe
 	align="center"
-	src="./cv/Menzo_CV.pdf#toolbar=0"
+	src="../cv/Menzo_CV.pdf#toolbar=0"
 	width="100%"
 	height="928px"
 	style="border:none"
   frameborder="0"
 ></iframe> 
 
-[Menzo --- CV]: ./cv/Menzo_CV.pdf
+[Menzo --- CV]: ../cv/Menzo_CV.pdf
