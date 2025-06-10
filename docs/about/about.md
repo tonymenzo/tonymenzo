@@ -5,7 +5,7 @@ nav_order: 4
 ---
 <!---<h2 align="center"> <strong> Tony Menzo </strong> </h2>/--->
 <p align="center">
-  <img src="../../images/tonymenzo.png" alt="drawing" width="300" />
+  <img src="tonymenzo.png" alt="drawing" width="300" />
 </p>
 <!---<h2 align="center"> <strong> Tony Menzo </strong> </h2>/--->
 
