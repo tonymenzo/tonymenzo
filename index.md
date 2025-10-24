@@ -123,7 +123,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 
 <div class="project-container">
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.6;">
-    <img src="{{ '../images/thumbnails/iHOMER.png' | relative_url }}" alt="posthocflavor">
+    <img src="{{ './images/thumbnails/iHOMER.png' | relative_url }}" alt="posthocflavor">
     <div class="project-top-text special-text">2505.00142</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -133,7 +133,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
   </a>
 
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.3;">
-    <img src="{{ '../images/thumbnails/SHiP_tau_ALP.svg' | relative_url }}" alt="posthocflavor">
+    <img src="{{ './images/thumbnails/SHiP_tau_ALP.svg' | relative_url }}" alt="posthocflavor">
     <div class="project-top-text special-text">2507.15271</div>
     <div class="project-overlay">
       <div class="project-text-strip">
