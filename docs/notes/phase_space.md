@@ -7,12 +7,13 @@ has_children: false
 nav_order: 1
 ---
 
-# Phase space
+# **Phase space**
 {: .fw-700}
 
+<!---
 ***Title***: Phase space
-
-***Summary***: 
+/--->
+***Summary***: Explicit calculation of 2-body Lorentz invariant phase space.
 
 ***Download***:  [Menzo --- Phase space]
 

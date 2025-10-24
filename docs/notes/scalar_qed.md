@@ -6,12 +6,13 @@ grand_parent: Notes
 has_children: false
 ---
 
-# Phase space
+# **Scalar Quantum Electrodynamics**
 {: .fw-700}
 
+<!---
 ***Title***: Scalar QED
-
-***Summary***: 
+/--->
+***Summary***: QED + an additional charged complex scalar.
 
 ***Download***:  [Menzo --- Scalar QED]
 

@@ -2,11 +2,12 @@
 layout: default
 title: SU(6) Quark Model
 parent: Notes
+mathjax: true
 ---
-# SU(6) Quark Model
+# **SU(6) Quark Model**
 {: .fw-700}
 
-***Summary***: 
+***Summary***: Introduction to the theory and phenomenology of the non-relativistic $$SU(6)$$ quark model.
 
 ***Download***:  [Menzo --- SU(6) Quark Model]
 

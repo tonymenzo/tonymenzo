@@ -6,7 +6,7 @@ has_children: true
 permalink: docs/code
 mathjax: true
 ---
-# Code
+# **Code**
 {: .fw-700}
 
 ## Public code from publications

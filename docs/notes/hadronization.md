@@ -4,12 +4,10 @@ parent: Notes
 has_children: False
 layout: default
 ---
-# Hadronization
+# **Hadronization**
 {: .fw-700}
 
-***Title***: Hadronization
-
-***Summary***: A brief introduction to the Lund string model.
+***Summary***: An introduction to the Lund string model.
 
 ***Download***:  [Menzo --- Hadronization]
 

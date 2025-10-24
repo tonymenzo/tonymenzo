@@ -35,12 +35,13 @@ layout: default
     <h2 align="center"> <strong> General Relativity </strong> </h2>
 </p>/--->
 
-# General Relativity 
+# **General Relativity**
 {: .fw-700}
 
+<!---
 ***Title***: General Relativity
-
-***Summary***: 
+/--->
+***Summary***: Differential geometry, Einstein equations, cosmology, and a bit of black hole thermodynamics. 
 
 ***Download***:  [Menzo --- General Relativity]
 

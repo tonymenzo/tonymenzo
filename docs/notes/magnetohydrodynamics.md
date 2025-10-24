@@ -8,12 +8,10 @@ title: Magnetohydrodynamics
 </p>
 <p>&nbsp;</p>/--->
 
-# Magnetohydrodynamics 
+# **Magnetohydrodynamics** 
 {: .fw-700}
 
-***Title***: Magnetic waves from fluid motions
-
-***Summary***: 
+***Summary***: Magnetic waves from fluid motions.
 
 ***Download***:  [Menzo --- Magnetic waves from fluid motions]
 

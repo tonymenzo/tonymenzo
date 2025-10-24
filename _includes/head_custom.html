@@ -1,4 +1,3 @@
-
 {% if page.mathjax %}
   <script type="text/x-mathjax-config">
     {{ site.mathjax.config }};
@@ -11,3 +10,91 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+
+<style>
+  .sidebar-profile{padding:0 0rem 0rem;text-align:center}
+  .sidebar-profile img{width:90px;height:90px;border-radius:50%;object-fit:cover;display:block;margin:0 auto .5rem}
+  .sidebar-profile .name{font-weight:600}
+  .sidebar-profile .tag{font-size:.9rem;color:#666}
+  .sidebar-profile .links a{text-decoration:none}
+  .sidebar-profile .links a+a::before{content:" · ";color:#999}
+  .sidebar-spacer{height:1.25rem}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const header = document.querySelector('.side-bar .site-header');
+  if (!header) return;
+
+  // spacer to push the block further down
+  const spacer = document.createElement('div');
+  spacer.className = 'sidebar-spacer';
+  header.insertAdjacentElement('afterend', spacer);
+
+  // profile block under logo/title
+  const block = document.createElement('div');
+  block.className = 'sidebar-profile';
+  block.innerHTML = `
+    <img src="{{ '/assets/images/tonymenzo.png' | relative_url }}" alt="Profile photo">
+  <div class="name">Tony Menzo, Ph.D.</div>
+  <div class="tag">hep-ph</div>
+  <div class="icon-links" style="margin-top:0.6rem; display:flex; gap:0.5rem; justify-content:left;">
+    <a href="https://github.com/tonymenzo" target="_blank" rel="noopener">
+      <img src="{{ '/assets/icons/github.svg' | relative_url }}" alt="GitHub" style="width:17px; height:17px;">
+    </a>
+    <a href="https://inspirehep.net/authors/2049582?ui-citation-summary=true" target="_blank" rel="noopener">
+      <img src="{{ '/assets/icons/inspire.svg' | relative_url }}" alt="Inspire" style="width:17px; height:17px;">
+    </a>
+    <a href="https://arxiv.org/search/?searchtype=author&query=Tony%20Menzo" target="_blank" rel="noopener">
+      <img src="{{ '/assets/icons/arxiv.svg' | relative_url }}" alt="arXiv" style="width:17px; height:17px;">
+    </a>
+  </div>`;
+  spacer.insertAdjacentElement('afterend', block);
+});
+</script>
+
+
+<style>
+  .sidebar-spacer {
+    height: 2rem; /* adjust spacing below logo */
+  }
+
+  .sidebar-profile {
+    text-align: left;         /* text alignment */
+    padding: 0 0rem 0rem;
+    width: 230px;            /* control block width */
+    margin-left:5px;       /* shift entire block left */
+  }
+
+  .sidebar-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    object-fit: cover;
+    display: block;
+    margin: 0 0.1rem 1rem;    /* no auto-centering */
+  }
+
+  .sidebar-profile .name {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  .sidebar-profile .tag {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .sidebar-profile .links {
+    margin-top: 0.35rem;
+  }
+
+  .sidebar-profile .links a {
+    text-decoration: none;
+  }
+
+  .sidebar-profile .links a + a::before {
+    content: " · ";
+    color: #999;
+  }
+</style>
+

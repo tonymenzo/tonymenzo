@@ -4,14 +4,16 @@ layout: default
 parent: Particle Physics
 grand_parent: Notes
 has_children: false
+mathjax: true
 ---
 
-# Compton scattering
+# **Compton scattering**
 {: .fw-700}
 
+<!---
 ***Title***: Compton scattering
-
-***Summary***: 
+/--->
+***Summary***: Tree-level QED cross section calculation of $$e^- \gamma \to e^- \gamma$$.
 
 ***Download***:  [Menzo --- Compton scattering]
 

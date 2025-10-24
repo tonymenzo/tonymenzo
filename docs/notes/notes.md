@@ -38,7 +38,7 @@ title: Notes
 </p>
 <p>&nbsp;</p>
 --->
-# Notes
+# **Notes**
 {: .fw-700}
 
-A small library of my notes that I've written over the years. 
+A small library of notes that I've written over the years. 

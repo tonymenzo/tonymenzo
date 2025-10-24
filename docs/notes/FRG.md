@@ -4,12 +4,13 @@ layout: default
 parent: Notes
 has_children: false
 ---
-# Functional renormalization group
+# **Functional renormalization group**
 {: .fw-700}
 
+<!---
 ***Title***: Functional renormalization group
-
-***Summary***: 
+/--->
+***Summary***: Short introduction to functional calculus and functional renormalization group.
 
 ***Download***:  [Menzo --- Functional renormilization group]
 

@@ -2,14 +2,16 @@
 layout: default
 parent: Notes
 title: Holography
+mathjax: true
 ---
 
-# Holographic dictionary
+# **Holographic dictionary**
 {: .fw-700}
 
+<!---
 ***Title***: Holographic dictionary
-
-***Summary***: 
+/--->
+***Summary***: Some unpolished notes on gauge-gravity duality and some explicit calculations of $$q\bar{q}$$ potentials in confining gravity backgrounds.
 
 ***Download***:  [Menzo --- Holographic dictionary]
 

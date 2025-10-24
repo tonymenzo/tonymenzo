@@ -4,14 +4,17 @@ layout: default
 parent: Particle Physics
 grand_parent: Notes
 has_children: false
+mathjax: true
 ---
 
-# Bhabha scattering
+# **Bhabha scattering**
 {: .fw-700}
 
+<!--- 
 ***Title***: Bhabha scattering
+/--->
 
-***Summary***: 
+***Summary***: Tree-level QED cross-section calculation of $$e^+ e^- \to e^+ e^-$$.
 
 ***Download***:  [Menzo --- Bhabha scattering]
 

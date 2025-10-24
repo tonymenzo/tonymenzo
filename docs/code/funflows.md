@@ -4,12 +4,12 @@ parent: Code
 mathjax: true
 title: FunFlows
 ---
-# FunFlows
+# **Functional renormalization group flows of O(N) models (FunFlows)**
 {: .fw-700}
-
+<!---
 ***Title***: Functional renormalization group and coupling flows
-
-***Summary***: A symbolic and numerical software library that implements funcitonal renormalization group methods to compute the beta-functions and fixed-points of a O(N)-symmetric scalar field theories in d-dimensions.
+/--->
+***Summary***: A symbolic and numerical software library that implements functional renormalization group methods to compute the beta-functions and fixed-points of a $$O(N)$$-symmetric scalar field theories in d-dimensions.
 
 ***Download***:  [Menzo --- FunFlows]
 

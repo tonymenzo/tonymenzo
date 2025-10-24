@@ -4,10 +4,10 @@ parent: Notes
 title: Axions
 ---
 
-# Axions 
+# **Axions** 
 {: .fw-700}
 
-***Summary***: 
+***Summary***: Introduction to the theory and phenomenology of axions (a.k.a. Higglets) and axion-like-particles (ALPs).
 
 ***Download***:  [Menzo --- Axions]
 

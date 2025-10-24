@@ -4,11 +4,11 @@ parent: Code
 mathjax: true
 title: qt-AMEG 
 ---
-# qtAMEG
+# **QED Tree-level Automatic Matrix Element Generator (qtAMEG)**
 {: .fw-700}
-
+<!---
 ***Title***: QED Tree-level Automatic Matrix Element Generator
-
+/--->
 ***Summary***: A toy automatic matrix element generator and phase space integrator for tree-level QED proccesses.
 
 ***Download***:  [Menzo --- qtAMEG]

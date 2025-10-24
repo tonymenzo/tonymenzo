@@ -4,14 +4,16 @@ layout: default
 parent: Particle Physics
 grand_parent: Notes
 has_children: false
+mathjax: true
 ---
 
-# Gamma matrices
+# **Gamma matrices**
 {: .fw-700}
 
+<!---
 ***Title***: Gamma matrices
-
-***Summary***: 
+/--->
+***Summary***: Some useful $$\gamma$$-matrix identities and relations. 
 
 ***Download***:  [Menzo --- Gamma matrices]
 

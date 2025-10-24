@@ -4,14 +4,16 @@ layout: default
 parent: Particle Physics
 grand_parent: Notes
 has_children: false
+mathjax: true
 ---
 
-# Compton scattering
+# **Moller scattering**
 {: .fw-700}
 
+<!---
 ***Title***: Moller scatering
-
-***Summary***: 
+/--->
+***Summary***: Tree-level QED cross section calculation of $$e^- e^- \to e^- e^-$$.
 
 ***Download***:  [Menzo --- Moller scatering]
 

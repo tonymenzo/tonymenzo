@@ -4,12 +4,13 @@ layout: default
 parent: Notes
 has_children: false
 ---
-# Randall-Sundrum models
+# **Randall-Sundrum models**
 {: .fw-700}
 
+<!---
 ***Title***: Randall-Sundrum models
-
-***Summary***: 
+/--->
+***Summary***: Introduction to Randall-Sundrum models.
 
 ***Download***:  [Menzo --- Randall-Sundrum models]
 
