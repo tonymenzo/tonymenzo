@@ -146,7 +146,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 
 <div class="project-container">
   <a href="insert hyperlink" class="project-block">
-    <img src="{{ '../images/thumbnails/posthoc_flav.png' | relative_url }}" alt="posthocflavor" style="--thumb-scale: 1.6;">
+    <img src="{{ './images/thumbnails/posthoc_flav.png' | relative_url }}" alt="posthocflavor" style="--thumb-scale: 1.6;">
     <div class="project-top-text special-text">2505.00142</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -156,7 +156,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
   </a>
 
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 0.9;">
-    <img src="{{ '../images/thumbnails/time_dependence.svg' | relative_url }}" alt="posthocflavor">
+    <img src="{{ './images/thumbnails/time_dependence.svg' | relative_url }}" alt="posthocflavor">
     <div class="project-top-text special-text">2503.07722</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -169,7 +169,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 
 <div class="project-container">
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.25;">
-    <img src="{{ '../images/thumbnails/HOMER_gluons.svg' | relative_url }}" alt="HOMER_gluons">
+    <img src="{{ './images/thumbnails/HOMER_gluons.svg' | relative_url }}" alt="HOMER_gluons">
     <div class="project-top-text special-text">2503.05667</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -179,7 +179,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
   </a>
 
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.2;">
-    <img src="{{ '../images/thumbnails/production_detection_schematic.svg' | relative_url }}" alt="posthocflavor">
+    <img src="{{ './images/thumbnails/production_detection_schematic.svg' | relative_url }}" alt="posthocflavor">
     <div class="project-top-text special-text">2502.12314</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -191,7 +191,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 
 <div class="project-container">
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.25;">
-    <img src="{{ '../images/thumbnails/RSA.svg' | relative_url }}" alt="RSA">
+    <img src="{{ './images/thumbnails/RSA.svg' | relative_url }}" alt="RSA">
     <div class="project-top-text special-text">2411.02194</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -201,7 +201,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
   </a>
 
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.25;">
-    <img src="{{ '../images/thumbnails/HOMER.svg' | relative_url }}" alt="HOMER">
+    <img src="{{ './images/thumbnails/HOMER.svg' | relative_url }}" alt="HOMER">
     <div class="project-top-text special-text">2410.06342</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -213,7 +213,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 
 <div class="project-container">
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 0.9;">
-    <img src="{{ '../images/thumbnails/muon_capture.svg' | relative_url }}" alt="muon_BNV">
+    <img src="{{ './images/thumbnails/muon_capture.svg' | relative_url }}" alt="muon_BNV">
     <div class="project-top-text special-text">2407.03450</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -223,7 +223,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
   </a>
 
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 0.9;">
-    <img src="{{ '../images/thumbnails/tower.svg' | relative_url }}" alt="mu2e_EFT">
+    <img src="{{ './images/thumbnails/tower.svg' | relative_url }}" alt="mu2e_EFT">
     <div class="project-top-text special-text">2406.13818</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -235,7 +235,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 
 <div class="project-container">
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.2;">
-    <img src="{{ '../images/thumbnails/MAGIC.png' | relative_url}}" alt="MAGIC">
+    <img src="{{ './images/thumbnails/MAGIC.png' | relative_url}}" alt="MAGIC">
     <div class="project-top-text special-text">2311.09296</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -245,7 +245,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
   </a>
 
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.9;">
-    <img src="{{ '../images/thumbnails/insitu_kin.png' | relative_url }}" alt="insitu_kin">
+    <img src="{{ './images/thumbnails/insitu_kin.png' | relative_url }}" alt="insitu_kin">
     <div class="project-top-text special-text">2308.13459</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -257,7 +257,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 
 <div class="project-container">
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 0.9;">
-    <img src="{{ '../images/thumbnails/mu5e.svg' | relative_url}}" alt="mu5e">
+    <img src="{{ './images/thumbnails/mu5e.svg' | relative_url}}" alt="mu5e">
     <div class="project-top-text special-text">2306.15631</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -267,7 +267,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
   </a>
 
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.2;">
-    <img src="{{ '../images/thumbnails/WqCP_ACP.png' | relative_url }}" alt="gaussian_flow">
+    <img src="{{ './images/thumbnails/WqCP_ACP.png' | relative_url }}" alt="gaussian_flow">
     <div class="project-top-text special-text">2301.15631</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -279,7 +279,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 
 <div class="project-container">
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.2;">
-    <img src="{{ '../images/thumbnails/MAGIC.png' | relative_url}}" alt="MAGIC">
+    <img src="{{ './images/thumbnails/MAGIC.png' | relative_url}}" alt="MAGIC">
     <div class="project-top-text special-text">2311.09296</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -289,7 +289,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
   </a>
 
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.9;">
-    <img src="{{ '../images/thumbnails/insitu_kin.png' | relative_url }}" alt="insitu_kin">
+    <img src="{{ './images/thumbnails/insitu_kin.png' | relative_url }}" alt="insitu_kin">
     <div class="project-top-text special-text">2308.13459</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -301,7 +301,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 
 <div class="project-container">
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.1;">
-    <img src="{{ '../images/thumbnails/Wmass_NP.png' | relative_url}}" alt="mW">
+    <img src="{{ './images/thumbnails/Wmass_NP.png' | relative_url}}" alt="mW">
     <div class="project-top-text special-text">2204.05992</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -311,7 +311,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
   </a>
 
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 0.9;">
-    <img src="{{ '../images/thumbnails/hadronization_cartoon.svg' | relative_url }}" alt="hadronization">
+    <img src="{{ './images/thumbnails/hadronization_cartoon.svg' | relative_url }}" alt="hadronization">
     <div class="project-top-text special-text">2203.04983</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -358,7 +358,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 {: .fw-700}
 <div class="project-container">
   <a href="insert hyperlink" class="project-block" style="--thumb-scale: 0.9;">
-    <img src="{{ '../images/thumbnails/dissertation.png' | relative_url}}" alt="dissertation">
+    <img src="{{ './images/thumbnails/dissertation.png' | relative_url}}" alt="dissertation">
     <div class="project-overlay">
       <div class="project-text-strip" style="text-align: center;">
         Rare Lepton Decays and Differentiable Hadronization Models<br> <small>From Signatures of New Physics to Data-driven Event Generation</small>
@@ -443,7 +443,7 @@ Examples of syntax for project/presentation blocks.
 
 <div class="container">
   <a href="presentations/[Menzo]AFlavorfulAndDarkCascadeForLowScaleLeptogenesis.pdf" class="responsive-block">
-    <img src="{{ '../images/thumbnails/fdlslg.svg' | relative_url }}" alt="fdlslg">
+    <img src="{{ './images/thumbnails/fdlslg.svg' | relative_url }}" alt="fdlslg">
     <div class="overlay">
       <div class="text-strip">
         A Flavorful and Dark Cascade for Low-scale Leptogenesis
@@ -453,7 +453,7 @@ Examples of syntax for project/presentation blocks.
 
   <!-- Add more blocks like this if needed -->
   <a href="/another-page/" class="responsive-block">
-    <img src="{{ '../images/thumbnails/mu5e.svg' | relative_url }}" alt="mu5e">
+    <img src="{{ './images/thumbnails/mu5e.svg' | relative_url }}" alt="mu5e">
     <div class="overlay">
       <div class="text-strip">
         Heavy and Light New Physics in Rare Muon Decays
