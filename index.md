@@ -41,7 +41,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
     overflow: hidden;
     width: 100%;
     aspect-ratio: 3.236 / 2.2;
-    max-width: 500px;
+    max-width: 350px;
     background-color: #e0e0e0;
     display: block;
     border: 1px solid black;
