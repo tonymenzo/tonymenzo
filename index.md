@@ -19,9 +19,9 @@ mathjax: true
 <!---Many sub-fields of physics focus on formulating theories of macroscopic behavior from microscopic dynamics. High energy physics takes this to the extreme by using particle colliders as ''zeptoscopes'' (i.e. machines that can probe distances of $$\approx 10^{-21}$$ meters) to investigate the microscopic properties of fundamental matter. A relatively simple quantitative model, known as the Standard Model (SM) of elementary particle physics, can be used to predict the results of these collider experiments with astounding precision. However, while the SM correctly predicts a vast amount of collected experimental data there are still subsets of observations that are in *tension* with its theoretical predictions. My research primarily focuses on *understanding* and *bridging* this gap between discrepant theoretical predictions and experimental measurements./--->
 # **Research** 
 {: .fw-700}
-I'm a particle phenomenologist. My research focuses on understanding how theoretical models defined at high-energies influence low-energy experimental observables. I spend my time (1) developing computational frameworks, methodologies, and algorithms to enable more precise and accurate comparisons between theory and experiment, and (2) investigating, estimating, and constraining novel phenomenology related experimental signatures of theoretical predictions in extensions of the Standard Model. 
+I'm a particle phenomenologist -- my research focuses on understanding how theoretical models defined at high-energies influence low-energy experimental observables. I spend my time (1) developing computational frameworks, methodologies, and algorithms to enable more precise and accurate comparisons between theory and experiment, and (2) investigating, estimating, and constraining novel phenomenology related experimental signatures of theoretical predictions in extensions of the Standard Model. 
 
-More broadly, I am interested in model building, machine learning, optimal transport, hadronization, rare lepton decays, effective field theory, proton decay, any and all solutions to the hierarchy problem, grand unified theories, gauge/gravity duality, cosmology, string phenomenology, functional programming and related areas.
+More specifically, I'm interested in model building, machine learning, optimal transport, hadronization, rare lepton decays, effective field theory, proton decay, solutions to the hierarchy problem, tumbling gauge theories, grand unified theories, gauge/gravity duality, cosmology, string phenomenology, functional programming, and more...
 
 
 # **Publications**
@@ -122,9 +122,9 @@ More broadly, I am interested in model building, machine learning, optimal trans
 </style>
 
 <div class="project-container">
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.6;">
-    <img src="{{ './images/thumbnails/iHOMER.png' | relative_url }}" alt="posthocflavor">
-    <div class="project-top-text special-text">2505.00142</div>
+  <a href="https://arxiv.org/abs/2509.03592" class="project-block" style="--thumb-scale: 1.6;">
+    <img src="{{ './images/thumbnails/iHOMER.png' | relative_url }}" alt="iHOMER">
+    <div class="project-top-text special-text">2509.03592</div>
     <div class="project-overlay">
       <div class="project-text-strip">
         Iterative HOMER with uncertainties
@@ -132,8 +132,8 @@ More broadly, I am interested in model building, machine learning, optimal trans
     </div>
   </a>
 
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.3;">
-    <img src="{{ './images/thumbnails/SHiP_tau_ALP.svg' | relative_url }}" alt="posthocflavor">
+  <a href="https://arxiv.org/abs/2507.15271" class="project-block" style="--thumb-scale: 1.3;">
+    <img src="{{ './images/thumbnails/SHiP_tau_ALP.svg' | relative_url }}" alt="tau_init_ALPs">
     <div class="project-top-text special-text">2507.15271</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -145,7 +145,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 
 
 <div class="project-container">
-  <a href="insert hyperlink" class="project-block">
+  <a href="https://arxiv.org/abs/2505.00142" class="project-block">
     <img src="{{ './images/thumbnails/posthoc_flav.png' | relative_url }}" alt="posthocflavor" style="--thumb-scale: 1.6;">
     <div class="project-top-text special-text">2505.00142</div>
     <div class="project-overlay">
@@ -155,8 +155,8 @@ More broadly, I am interested in model building, machine learning, optimal trans
     </div>
   </a>
 
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 0.9;">
-    <img src="{{ './images/thumbnails/time_dependence.svg' | relative_url }}" alt="posthocflavor">
+  <a href="https://arxiv.org/abs/2503.07722" class="project-block" style="--thumb-scale: 0.9;">
+    <img src="{{ './images/thumbnails/time_dependence.svg' | relative_url }}" alt="LFV_ULDM">
     <div class="project-top-text special-text">2503.07722</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -168,7 +168,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 
 
 <div class="project-container">
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.25;">
+  <a href="https://arxiv.org/abs/2503.05667" class="project-block" style="--thumb-scale: 1.25;">
     <img src="{{ './images/thumbnails/HOMER_gluons.svg' | relative_url }}" alt="HOMER_gluons">
     <div class="project-top-text special-text">2503.05667</div>
     <div class="project-overlay">
@@ -178,8 +178,8 @@ More broadly, I am interested in model building, machine learning, optimal trans
     </div>
   </a>
 
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.2;">
-    <img src="{{ './images/thumbnails/production_detection_schematic.svg' | relative_url }}" alt="posthocflavor">
+  <a href="https://arxiv.org/abs/2502.12314" class="project-block" style="--thumb-scale: 1.2;">
+    <img src="{{ './images/thumbnails/production_detection_schematic.svg' | relative_url }}" alt="fusion_scalars">
     <div class="project-top-text special-text">2502.12314</div>
     <div class="project-overlay">
       <div class="project-text-strip">
@@ -190,7 +190,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 </div>
 
 <div class="project-container">
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.25;">
+  <a href="https://arxiv.org/abs/2411.02194" class="project-block" style="--thumb-scale: 1.25;">
     <img src="{{ './images/thumbnails/RSA.svg' | relative_url }}" alt="RSA">
     <div class="project-top-text special-text">2411.02194</div>
     <div class="project-overlay">
@@ -200,7 +200,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
     </div>
   </a>
 
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.25;">
+  <a href="https://arxiv.org/abs/2410.06342" class="project-block" style="--thumb-scale: 1.25;">
     <img src="{{ './images/thumbnails/HOMER.svg' | relative_url }}" alt="HOMER">
     <div class="project-top-text special-text">2410.06342</div>
     <div class="project-overlay">
@@ -212,7 +212,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 </div>
 
 <div class="project-container">
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 0.9;">
+  <a href="https://arxiv.org/abs/2407.03450" class="project-block" style="--thumb-scale: 0.9;">
     <img src="{{ './images/thumbnails/muon_capture.svg' | relative_url }}" alt="muon_BNV">
     <div class="project-top-text special-text">2407.03450</div>
     <div class="project-overlay">
@@ -222,7 +222,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
     </div>
   </a>
 
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 0.9;">
+  <a href="https://arxiv.org/abs/2406.13818" class="project-block" style="--thumb-scale: 0.9;">
     <img src="{{ './images/thumbnails/tower.svg' | relative_url }}" alt="mu2e_EFT">
     <div class="project-top-text special-text">2406.13818</div>
     <div class="project-overlay">
@@ -234,7 +234,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 </div>
 
 <div class="project-container">
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.2;">
+  <a href="https://arxiv.org/abs/2311.09296" class="project-block" style="--thumb-scale: 1.2;">
     <img src="{{ './images/thumbnails/MAGIC.png' | relative_url}}" alt="MAGIC">
     <div class="project-top-text special-text">2311.09296</div>
     <div class="project-overlay">
@@ -244,7 +244,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
     </div>
   </a>
 
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.9;">
+  <a href="https://arxiv.org/abs/2308.13459" class="project-block" style="--thumb-scale: 1.9;">
     <img src="{{ './images/thumbnails/insitu_kin.png' | relative_url }}" alt="insitu_kin">
     <div class="project-top-text special-text">2308.13459</div>
     <div class="project-overlay">
@@ -256,7 +256,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 </div>
 
 <div class="project-container">
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 0.9;">
+  <a href="https://arxiv.org/abs/2306.15631" class="project-block" style="--thumb-scale: 0.9;">
     <img src="{{ './images/thumbnails/mu5e.svg' | relative_url}}" alt="mu5e">
     <div class="project-top-text special-text">2306.15631</div>
     <div class="project-overlay">
@@ -266,9 +266,9 @@ More broadly, I am interested in model building, machine learning, optimal trans
     </div>
   </a>
 
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.2;">
+  <a href="https://arxiv.org/abs/2301.13211" class="project-block" style="--thumb-scale: 1.2;">
     <img src="{{ './images/thumbnails/WqCP_ACP.png' | relative_url }}" alt="gaussian_flow">
-    <div class="project-top-text special-text">2301.15631</div>
+    <div class="project-top-text special-text">2301.13211</div>
     <div class="project-overlay">
       <div class="project-text-strip">
         The Earth Mover's Distance as a Measure of CP Violation
@@ -278,7 +278,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 </div>
 
 <div class="project-container">
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.2;">
+  <a href="https://arxiv.org/abs/2311.09296" class="project-block" style="--thumb-scale: 1.2;">
     <img src="{{ './images/thumbnails/MAGIC.png' | relative_url}}" alt="MAGIC">
     <div class="project-top-text special-text">2311.09296</div>
     <div class="project-overlay">
@@ -288,7 +288,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
     </div>
   </a>
 
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.9;">
+  <a href="https://arxiv.org/abs/2308.13459" class="project-block" style="--thumb-scale: 1.9;">
     <img src="{{ './images/thumbnails/insitu_kin.png' | relative_url }}" alt="insitu_kin">
     <div class="project-top-text special-text">2308.13459</div>
     <div class="project-overlay">
@@ -300,7 +300,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 </div>
 
 <div class="project-container">
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 1.1;">
+  <a href="https://arxiv.org/abs/2204.05992" class="project-block" style="--thumb-scale: 1.1;">
     <img src="{{ './images/thumbnails/Wmass_NP.png' | relative_url}}" alt="mW">
     <div class="project-top-text special-text">2204.05992</div>
     <div class="project-overlay">
@@ -310,7 +310,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
     </div>
   </a>
 
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 0.9;">
+  <a href="https://arxiv.org/abs/2203.04983" class="project-block" style="--thumb-scale: 0.9;">
     <img src="{{ './images/thumbnails/hadronization_cartoon.svg' | relative_url }}" alt="hadronization">
     <div class="project-top-text special-text">2203.04983</div>
     <div class="project-overlay">
@@ -357,7 +357,7 @@ More broadly, I am interested in model building, machine learning, optimal trans
 # **Dissertation**
 {: .fw-700}
 <div class="project-container">
-  <a href="insert hyperlink" class="project-block" style="--thumb-scale: 0.9;">
+  <a href="dissertation/[Menzo]RareLeptonDecaysAndDifferentiableHadronizationModels.pdf" class="project-block" style="--thumb-scale: 0.9;">
     <img src="{{ './images/thumbnails/dissertation.png' | relative_url}}" alt="dissertation">
     <div class="project-overlay">
       <div class="project-text-strip" style="text-align: center;">
