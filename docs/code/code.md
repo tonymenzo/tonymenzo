@@ -9,31 +9,216 @@ mathjax: true
 # **Code**
 {: .fw-700}
 
-## Public code from publications
+A number of my publications are accompanied by open-source software. Relevant repositories are linked below.
+
+<style>
+  .project-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem 1rem;
+    width: 98%;
+  }
+
+  .project-block {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 3.236 / 2.2;
+    max-width: 350px;
+    background-color: #e0e0e0;
+    display: block;
+    border: 1px solid black;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .project-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    transform: scale(var(--thumb-scale, 1));
+    transform-origin: center;
+    display: block;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+  }
+
+  .project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 3px 3px 3px 3px;
+    background-color: rgba(250, 250, 250, 0.6);
+  }
+
+  .project-text-strip {
+    width: 100%;
+    margin-top: 0;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    color: rgba(49, 49, 49, 1);
+    font-size: 0.9em;
+    font-weight: 900;
+    padding: 0.5em 0.75em;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+
+  .project-subtext-strip {
+    max-width: 70%;
+    margin-top: 0.3em;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    color: rgba(40, 40, 40, 1);
+    font-size: 0.7em;
+    font-weight: 600;
+    padding: 0.4em 0.75em;
+    text-align: left;
+    border: 1px solid rgba(200, 200, 200, 0.8);
+    align-self: flex-start;
+  }
+
+  .project-subtext-strip a {
+    color: rgba(5, 95, 168, 1);
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .project-subtext-strip a:hover {
+    text-decoration: underline;
+  }
+
+  .project-top-text {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    color: rgba(202, 19, 19, 1);
+    font-weight: bold;
+    padding: 0em 0em;
+    z-index: 2;
+  }
+
+  @media (min-width: 600px) {
+    .project-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>
+
+<!--- Import external font --->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+<style>
+.special-text {
+  font-family: "Orbitron", normal;
+  font-size: 1.1em;
+  font-weight: 900;
+  color: #111111ff;
+  margin: 0.1em 0.1em;
+}
+</style>
+
+<div class="project-container">
+
+  <div class="project-block" style="--thumb-scale: 1;" onclick="window.location.href='https://github.com/tonymenzo/heptapod'">
+    <img src="{{ './images/thumbnails/code/heptapod_diagram_focused.svg' | relative_url }}" alt="RSA">
+    <div class="project-top-text special-text">HEPTAPOD</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        HEP Toolkit for Agentic Planning, Orchestration, and Deployment
+      </div>
+      <div class="project-subtext-strip">
+        Based on:
+        <a href="https://arxiv.org/abs/2512.15867" onclick="event.stopPropagation()">2512.15867</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-block" style="--thumb-scale: 0.9;" onclick="window.location.href='https://gitlab.com/uchep/mlhad'">
+    <img src="{{ './images/thumbnails/code/mlhad_logo.svg' | relative_url }}" alt="MLHAD">
+    <div class="project-top-text special-text">MLHAD</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Machine Learning for Hadronization
+      </div>
+      <div class="project-subtext-strip">
+        Based on:
+        <a href="https://arxiv.org/abs/2203.04983" onclick="event.stopPropagation()">2203.04983</a>,
+        <a href="https://arxiv.org/abs/2311.09296" onclick="event.stopPropagation()">2311.09296</a>,
+        <a href="https://arxiv.org/abs/2410.06342" onclick="event.stopPropagation()">2410.06342</a>,
+        <a href="https://arxiv.org/abs/2411.02194" onclick="event.stopPropagation()">2411.02194</a>,
+        <a href="https://arxiv.org/abs/2503.05667" onclick="event.stopPropagation()">2503.05667</a>,
+        <a href="https://arxiv.org/abs/2505.00142" onclick="event.stopPropagation()">2505.00142</a>,
+        <a href="https://arxiv.org/abs/2509.03592"
+        onclick="event.stopPropagation()">2509.03592</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-block" style="--thumb-scale: 1;" onclick="window.location.href='https://github.com/tonymenzo/RSA'">
+    <img src="{{ './images/thumbnails/code/multiplicity.pdf' | relative_url }}" alt="RSA">
+    <div class="project-top-text special-text">RSA</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Rejection Sampling with Autodifferentiation
+      </div>
+      <div class="project-subtext-strip">
+        Based on:
+        <a href="https://arxiv.org/abs/2411.02194" onclick="event.stopPropagation()">2411.02194</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-block" style="--thumb-scale: 1.1;" onclick="window.location.href='https://github.com/adamdddave/emd4cpv'">
+    <img src="{{ './images/thumbnails/code/gaussian_flow_q_0.1.png' | relative_url }}" alt="EMD4CPV">
+    <div class="project-top-text special-text">EMD4CPV</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Earth Mover's Distance for CP Violation
+      </div>
+      <div class="project-subtext-strip">
+        Based on:
+        <a href="https://arxiv.org/abs/2301.13211" onclick="event.stopPropagation()">2301.13211</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-block" style="--thumb-scale: 1;" onclick="window.location.href='https://github.com/Berkeley-Electroweak-Physics/MuonBridge'">
+    <img src="{{ './images/thumbnails/code/WET_NRET_matching.svg' | relative_url }}" alt="MuonBridge">
+    <div class="project-top-text special-text">MuonBridge</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        EFT tower for &mu; &rarr; e conversion
+      </div>
+      <div class="project-subtext-strip">
+        Based on:
+        <a href="https://arxiv.org/abs/2406.13818" onclick="event.stopPropagation()">2406.13818</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+# **Tutorials**
 {: .fw-700}
 
-Many of my publications are associated with open-source software. You can find links to repositories that I've made major contributions below.
+I have also contributed to a set of nice tutorials related to Monte-Carlo event generation. The public repository is linked below.
 
-### [***MLHAD***] (***[2203.04983](https://arxiv.org/abs/2203.04983)***, ***[2311.09296](https://arxiv.org/abs/2311.09296)***, ***[2410.06342](https://arxiv.org/abs/2410.06342)***, ***[2411.02194](https://arxiv.org/abs/2411.02194)***, ***[2503.05667](https://arxiv.org/abs/2503.05667)***, ***[2505.00142](https://arxiv.org/abs/2505.00142)***)
-><details><summary><strong><em>Summary</em></strong></summary>
-  Hadronization is the process by which colored partons (quarks, anti-quarks, and gluons) are converted into colorless composite objects known as hadrons (protons, neutrons, pions, etc.). MLHAD is an ongoing research project developing generative machine learning algorithms and training paradigms to improve phenomenological models of hadronization that are widely used in high energy collision event simulations i.e. general-purpose Monte Carlo event generators such as Pythia. 
-
-### [***RSA***] (***[2411.02194](https://arxiv.org/pdf/2411.02194)***)
-><details><summary><strong><em>Summary</em></strong></summary>
-  Rejection sampling with autodifferentiation (RSA) pairs modern differentiable programming paradigms with rejection sampling. 
-
-### [***EMD4CPV***] (***[2301.13211](https://arxiv.org/abs/2301.13211)***)
-><details><summary><strong><em>Summary</em></strong></summary>
-  Charge-Parity (CP) violation in many-body weak meson decays manifests as local density asymmetries on kinematic (phase-space) graphs known as Dalitz plots. EMD4CPV is a software library that provides a simple interface for the implementation of optimal-transport-based observables utilizing the Earth Mover's Distance (EMD). These observables are sensitive to density asymmetries and thus also sensitive to CP violation within the Dalitz plot.
-
-### [***MuonBridge***] (***[2406.13818](https://arxiv.org/abs/2406.13818)***)
-><details><summary><strong><em>Summary</em></strong></summary>
-  MuonBridge is a top-level repository to a numerical EFT software suite that, through an effective theory tower, facilitates the matching of charged-lepton-flavor-violating (CLFV) Standard Model extensions to a recently developed nonrelativistic effective theory (NRET) that describes the nuclear-level interactions of muon-to-electron conversion within the field of a nucleus. This allows for the theoretical prediction of conversion rates and capture ratios within arbitrary CLFV UV completions that can be compared with experimental measurements.
-
-[***MLHAD***]: https://gitlab.com/uchep/mlhad
-
-[***EMD4CPV***]: https://github.com/adamdddave/emd4cpv
-
-[***MuonBridge***]: https://github.com/Berkeley-Electroweak-Physics/MuonBridge
-
-[***RSA***]: https://github.com/tonymenzo/RSA
+<div class="project-container">
+  <div class="project-block" style="--thumb-scale: 1;" onclick="window.location.href='https://gitlab.com/mcgen-ct/tutorials'">
+    <img src="{{ './images/thumbnails/code/fakelogo.png' | relative_url }}" alt="MCgen">
+    <div class="project-top-text special-text">MCgen</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        MCgen - Monte Carlo Event Generation Tutorials
+      </div>
+    </div>
+  </div>
+</div>

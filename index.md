@@ -17,26 +17,26 @@ mathjax: true
 {: .py-3}
 /--->
 <!---Many sub-fields of physics focus on formulating theories of macroscopic behavior from microscopic dynamics. High energy physics takes this to the extreme by using particle colliders as ''zeptoscopes'' (i.e. machines that can probe distances of $$\approx 10^{-21}$$ meters) to investigate the microscopic properties of fundamental matter. A relatively simple quantitative model, known as the Standard Model (SM) of elementary particle physics, can be used to predict the results of these collider experiments with astounding precision. However, while the SM correctly predicts a vast amount of collected experimental data there are still subsets of observations that are in *tension* with its theoretical predictions. My research primarily focuses on *understanding* and *bridging* this gap between discrepant theoretical predictions and experimental measurements./--->
+
 # **Research** 
 {: .fw-700}
-I'm a particle phenomenologist -- my research focuses on understanding how theoretical models defined at high-energies influence low-energy experimental observables. I spend my time (1) developing computational frameworks, methodologies, and algorithms to enable more precise and accurate comparisons between theory and experiment, and (2) investigating, estimating, and constraining novel phenomenology related experimental signatures of theoretical predictions in extensions of the Standard Model. 
+
+I'm a theoretical particle physicist focused on phenomenology -- my research focuses on understanding how theoretical models defined at high-energies influence low-energy experimental observables. I spend my time (1) developing computational frameworks, methodologies, and algorithms to enable more precise and accurate comparisons between theory and experiment, and (2) investigating, estimating, and constraining novel phenomenology related experimental signatures of theoretical predictions in extensions of the Standard Model. 
 
 More specifically, I'm interested in model building, machine learning, optimal transport, hadronization, rare lepton decays, effective field theory, proton decay, solutions to the hierarchy problem, tumbling gauge theories, grand unified theories, gauge/gravity duality, cosmology, string phenomenology, functional programming, and more...
-
 
 # **Publications**
 {: .fw-700}
 
 <style>
   .project-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem 1rem;
     width: 98%;
   }
 
   .project-block {
-    flex: 1;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -47,7 +47,6 @@ More specifically, I'm interested in model building, machine learning, optimal t
     border: 1px solid black;
     text-decoration: none;
     color: inherit;
-    margin-bottom: 2rem;
   }
 
   .project-block img {
@@ -104,7 +103,7 @@ More specifically, I'm interested in model building, machine learning, optimal t
 
   @media (min-width: 600px) {
     .project-container {
-      flex-direction: row;
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 </style>
@@ -122,7 +121,16 @@ More specifically, I'm interested in model building, machine learning, optimal t
 </style>
 
 <div class="project-container">
-  <a href="https://arxiv.org/abs/2509.03592" class="project-block" style="--thumb-scale: 1.6;">
+  <a href="https://arxiv.org/abs/2512.15867" class="project-block" style="--thumb-scale: 1;">
+    <img src="{{ './images/thumbnails/code/heptapod_diagram_focused.svg' | relative_url }}" alt="iHOMER">
+    <div class="project-top-text special-text">2512.15867</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        HEPTAPOD: Orchestrating High-Energy-Physics Workflows Towards Autonomous Agency
+      </div>
+    </div>
+  </a>
+  <a href="https://arxiv.org/abs/2509.03592" class="project-block" style="--thumb-scale: 1.5;">
     <img src="{{ './images/thumbnails/iHOMER.png' | relative_url }}" alt="iHOMER">
     <div class="project-top-text special-text">2509.03592</div>
     <div class="project-overlay">
@@ -141,10 +149,7 @@ More specifically, I'm interested in model building, machine learning, optimal t
       </div>
     </div>
   </a>
-</div>
 
-
-<div class="project-container">
   <a href="https://arxiv.org/abs/2505.00142" class="project-block">
     <img src="{{ './images/thumbnails/posthoc_flav.png' | relative_url }}" alt="posthocflavor" style="--thumb-scale: 1.6;">
     <div class="project-top-text special-text">2505.00142</div>
@@ -164,10 +169,7 @@ More specifically, I'm interested in model building, machine learning, optimal t
       </div>
     </div>
   </a>
-</div>
 
-
-<div class="project-container">
   <a href="https://arxiv.org/abs/2503.05667" class="project-block" style="--thumb-scale: 1.25;">
     <img src="{{ './images/thumbnails/HOMER_gluons.svg' | relative_url }}" alt="HOMER_gluons">
     <div class="project-top-text special-text">2503.05667</div>
@@ -187,9 +189,7 @@ More specifically, I'm interested in model building, machine learning, optimal t
       </div>
     </div>
   </a>
-</div>
 
-<div class="project-container">
   <a href="https://arxiv.org/abs/2411.02194" class="project-block" style="--thumb-scale: 1.25;">
     <img src="{{ './images/thumbnails/RSA.svg' | relative_url }}" alt="RSA">
     <div class="project-top-text special-text">2411.02194</div>
@@ -209,9 +209,7 @@ More specifically, I'm interested in model building, machine learning, optimal t
       </div>
     </div>
   </a>
-</div>
 
-<div class="project-container">
   <a href="https://arxiv.org/abs/2407.03450" class="project-block" style="--thumb-scale: 0.9;">
     <img src="{{ './images/thumbnails/muon_capture.svg' | relative_url }}" alt="muon_BNV">
     <div class="project-top-text special-text">2407.03450</div>
@@ -231,9 +229,7 @@ More specifically, I'm interested in model building, machine learning, optimal t
       </div>
     </div>
   </a>
-</div>
 
-<div class="project-container">
   <a href="https://arxiv.org/abs/2311.09296" class="project-block" style="--thumb-scale: 1.2;">
     <img src="{{ './images/thumbnails/MAGIC.png' | relative_url}}" alt="MAGIC">
     <div class="project-top-text special-text">2311.09296</div>
@@ -253,9 +249,7 @@ More specifically, I'm interested in model building, machine learning, optimal t
       </div>
     </div>
   </a>
-</div>
 
-<div class="project-container">
   <a href="https://arxiv.org/abs/2306.15631" class="project-block" style="--thumb-scale: 0.9;">
     <img src="{{ './images/thumbnails/mu5e.svg' | relative_url}}" alt="mu5e">
     <div class="project-top-text special-text">2306.15631</div>
@@ -275,31 +269,7 @@ More specifically, I'm interested in model building, machine learning, optimal t
       </div>
     </div>
   </a>
-</div>
 
-<div class="project-container">
-  <a href="https://arxiv.org/abs/2311.09296" class="project-block" style="--thumb-scale: 1.2;">
-    <img src="{{ './images/thumbnails/MAGIC.png' | relative_url}}" alt="MAGIC">
-    <div class="project-top-text special-text">2311.09296</div>
-    <div class="project-overlay">
-      <div class="project-text-strip">
-        Towards a data-driven model of hadronization using normalizing flows
-      </div>
-    </div>
-  </a>
-
-  <a href="https://arxiv.org/abs/2308.13459" class="project-block" style="--thumb-scale: 1.9;">
-    <img src="{{ './images/thumbnails/insitu_kin.png' | relative_url }}" alt="insitu_kin">
-    <div class="project-top-text special-text">2308.13459</div>
-    <div class="project-overlay">
-      <div class="project-text-strip">
-        Reweighting Monte Carlo Predictions and Automated Fragmentation Variations in Pythia 8
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="project-container">
   <a href="https://arxiv.org/abs/2204.05992" class="project-block" style="--thumb-scale: 1.1;">
     <img src="{{ './images/thumbnails/Wmass_NP.png' | relative_url}}" alt="mW">
     <div class="project-top-text special-text">2204.05992</div>
