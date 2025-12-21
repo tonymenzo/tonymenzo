@@ -143,7 +143,7 @@ A number of my publications are accompanied by open-source software. Relevant re
   </div>
 
   <div class="project-block" style="--thumb-scale: 0.9;" onclick="window.location.href='https://gitlab.com/uchep/mlhad'">
-    <img src="{{ './images/thumbnails/code/mlhad_logo.svg' | relative_url }}" alt="MLHAD">
+    <img src="{{ './images/thumbnails/code/MLHAD_logo.svg' | relative_url }}" alt="MLHAD">
     <div class="project-top-text special-text">MLHAD</div>
     <div class="project-overlay">
       <div class="project-text-strip">
