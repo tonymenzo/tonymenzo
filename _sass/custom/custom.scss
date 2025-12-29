@@ -1,0 +1,55 @@
+// Custom styles to disable logo hover effect
+.site-logo:hover {
+  opacity: 1 !important;
+  background-color: transparent !important;
+}
+
+.site-title:hover {
+  background-image: none !important;
+}
+
+// Custom sidebar navigation link hover styles
+.nav-list .nav-list-item {
+  border-left: 1px solid transparent;
+  transition: border-left-color 0.2s ease;
+  margin-left: 0.75rem; // Move border closer to text
+  padding-left: 0; // Remove default padding
+
+  &:hover {
+    border-left-color: rgba(0, 0, 0, 0.3); // Slightly transparent on hover
+  }
+
+  // Show border on active page
+  &.active {
+    border-left-color: #000000; // Solid black for active page
+  }
+
+  // Keep active border solid even when hovering
+  &.active:hover {
+    border-left-color: #000000;
+  }
+}
+
+.nav-list .nav-list-item .nav-list-link {
+  background-color: transparent !important;
+  background-image: none !important;
+  padding-left: 0.5rem; // Adjust text padding for closer border
+  color: rgba(0, 0, 0, 0.5) !important; // Make non-active text transparent
+  font-weight: 700 !important; // Make text bold
+}
+
+.nav-list .nav-list-item .nav-list-link:hover {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+.nav-list .nav-list-item .nav-list-link.active {
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #000000 !important; // Make active page text solid black
+}
+
+.nav-list .nav-list-item .nav-list-expander:hover {
+  background-image: none !important;
+  background-color: transparent !important;
+}

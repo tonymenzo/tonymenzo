@@ -4,8 +4,9 @@ title: Research
 nav_order: 1 
 mathjax: true
 ---
-1. TOC
+<!---1. TOC
 {:toc}
+/--->
 <!---
 ## Table of contents
 {: .no_toc .text-delta }
@@ -21,7 +22,7 @@ mathjax: true
 # **Research** 
 {: .fw-700}
 
-I'm a theoretical particle physicist focused on phenomenology -- my research focuses on understanding how theoretical models defined at high-energies influence low-energy experimental observables. I spend my time (1) developing computational frameworks, methodologies, and algorithms to enable more precise and accurate comparisons between theory and experiment, and (2) investigating, estimating, and constraining novel phenomenology related experimental signatures of theoretical predictions in extensions of the Standard Model.
+I'm a theoretical particle physicist -- my research focuses on understanding how theoretical models defined at high-energies manifest in experimentally accessible observables. I spend my time (1) developing computational frameworks, methodologies, and algorithms to enable more precise and accurate comparisons between theory and experiment, and (2) investigating, estimating, and constraining novel phenomenology related experimental signatures of theoretical predictions in extensions of the Standard Model.
 
 More specifically, I'm interested in model building, machine learning, optimal transport, hadronization, rare lepton decays, effective field theory, proton decay, solutions to the hierarchy problem, tumbling gauge theories, grand unified theories, gauge/gravity duality, cosmology, string phenomenology, functional programming, and more...
 

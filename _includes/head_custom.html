@@ -31,9 +31,11 @@ document.addEventListener('DOMContentLoaded', function () {
   const block = document.createElement('div');
   block.className = 'sidebar-profile';
   block.innerHTML = `
-    <img src="{{ '/assets/images/tonymenzo.png' | relative_url }}" alt="Profile photo">
+    <a href="{{ '/' | relative_url }}" style="display: block; text-decoration: none;">
+      <img src="{{ '/assets/images/tonymenzo.png' | relative_url }}" alt="Profile photo">
+    </a>
   <div class="name">Tony Menzo, Ph.D.</div>
-  <div class="tag">hep-ph</div>
+  <!--<div class="tag">hep-ph</div>-->
   <div class="icon-links" style="margin-top:0.6rem; display:flex; gap:0.5rem; justify-content:left;">
     <a href="https://github.com/tonymenzo" target="_blank" rel="noopener">
       <img src="{{ '/assets/icons/github.svg' | relative_url }}" alt="GitHub" style="width:17px; height:17px;">
