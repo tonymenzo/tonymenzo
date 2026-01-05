@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
     </a>
   <div class="name">Tony Menzo, Ph.D.</div>
   <!--<div class="tag">hep-ph</div>-->
-  <div class="icon-links" style="margin-top:0.6rem; display:flex; gap:0.5rem; justify-content:left;">
+  <div class="icon-links" style="margin-top:0.6rem; display:flex; gap:0.5rem; justify-content:center;">
     <a href="https://github.com/tonymenzo" target="_blank" rel="noopener">
       <img src="{{ '/assets/icons/github.svg' | relative_url }}" alt="GitHub" style="width:17px; height:17px;">
     </a>
@@ -58,10 +58,12 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   .sidebar-profile {
-    text-align: left;         /* text alignment */
+    text-align: center;         /* text alignment */
     padding: 0 0rem 0rem;
     width: 230px;            /* control block width */
-    margin-left:5px;       /* shift entire block left */
+    margin-left:-15px !important;       /* shift entire block left */
+    position: relative;
+    left: -30px;
   }
 
   .sidebar-profile img {
@@ -70,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
     border-radius: 20%;
     object-fit: cover;
     display: block;
-    margin: 0 0.1rem 1rem;    /* no auto-centering */
+    margin: 0 auto 1rem;    /* auto-centering */
   }
 
   .sidebar-profile .name {
