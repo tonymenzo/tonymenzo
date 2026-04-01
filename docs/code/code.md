@@ -137,7 +137,8 @@ A number of my publications are accompanied by open-source software. Relevant re
       </div>
       <div class="project-subtext-strip">
         Based on:
-        <a href="https://arxiv.org/abs/2512.15867" onclick="event.stopPropagation()">2512.15867</a>
+        <a href="https://arxiv.org/abs/2512.15867" onclick="event.stopPropagation()">2512.15867</a>,
+        <a href="https://arxiv.org/abs/2603.26990" onclick="event.stopPropagation()">2603.26990</a>
       </div>
     </div>
   </div>

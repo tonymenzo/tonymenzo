@@ -24,7 +24,7 @@ mathjax: true
 
 I'm a theoretical particle physicist -- my research focuses on understanding how theoretical models defined at high-energies manifest in experimentally accessible observables. I spend my time (1) developing computational frameworks, methodologies, and algorithms to enable more precise and accurate comparisons between theory and experiment, and (2) investigating, estimating, and constraining novel phenomenology related experimental signatures of theoretical predictions in extensions of the Standard Model.
 
-More specifically, I'm interested in model building, machine learning, optimal transport, hadronization, rare lepton decays, effective field theory, proton decay, solutions to the hierarchy problem, tumbling gauge theories, grand unified theories, gauge/gravity duality, cosmology, string phenomenology, functional programming, and more...
+More specifically, I'm interested in model building, machine learning, agentic programming and benchmarking, optimal transport, hadronization, rare lepton decays, effective field theory, proton decay, solutions to the hierarchy problem, tumbling gauge theories, grand unified theories, gauge/gravity duality, cosmology, string phenomenology, functional programming, and more...
 
 # **Publications**
 {: .fw-700}
@@ -58,6 +58,19 @@ More specifically, I'm interested in model building, machine learning, optimal t
     transform: scale(var(--thumb-scale, 1));  /* zoom out effect, defaults to 1 */
     transform-origin: center;
     display: block;
+    transition: filter 0.25s ease;
+  }
+
+  .project-block:hover img {
+    filter: brightness(0.85);
+  }
+
+  .project-block {
+    transition: background-color 0.25s ease;
+  }
+
+  .project-block:hover {
+    background-color: #c0c0c0;
   }
 
   .project-overlay {
@@ -122,6 +135,36 @@ More specifically, I'm interested in model building, machine learning, optimal t
 </style>
 
 <div class="project-container">
+  <a href="https://arxiv.org/abs/2603.26990" class="project-block" style="--thumb-scale: 1;">
+    <img src="{{ './images/thumbnails/task2_flowchart.svg' | relative_url }}" alt="agentic_diagrammatica">
+    <div class="project-top-text special-text">2603.26990</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Agentic Diagrammatica: Towards Autonomous Symbolic Computation in High Energy Physics
+      </div>
+    </div>
+  </a>
+
+  <a href="https://arxiv.org/abs/2602.12599" class="project-block" style="--thumb-scale: 0.8;">
+    <img src="{{ './images/thumbnails/discrete_dynamics.svg' | relative_url }}" alt="hadronization_efts">
+    <div class="project-top-text special-text">2602.12599</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Conservation laws and effective hadronization models
+      </div>
+    </div>
+  </a>
+
+  <a href="https://arxiv.org/abs/2602.01509" class="project-block" style="--thumb-scale: 1;">
+    <img src="{{ './images/thumbnails/hd_sense_new_clustering_detector_map_log_colors.png' | relative_url }}" alt="hdsense">
+    <div class="project-top-text special-text">2602.01509</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        HDSense: An efficient method for ranking observable sensitivity
+      </div>
+    </div>
+  </a>
+
   <a href="https://arxiv.org/abs/2512.15867" class="project-block" style="--thumb-scale: 1;">
     <img src="{{ './images/thumbnails/code/heptapod_diagram_focused.svg' | relative_url }}" alt="iHOMER">
     <div class="project-top-text special-text">2512.15867</div>
@@ -338,105 +381,3 @@ More specifically, I'm interested in model building, machine learning, optimal t
   </a>
 </div>
 
-# **Presentations**
-{: .fw-700}
-<!---
-Containers for displaying project/presentation blocks
-/--->
-
-<style>
-  .container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 98%;
-  }
-
-  .responsive-block {
-    flex: 1;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    aspect-ratio: 3.236 / 2.3;
-    max-width: 500px;
-    background-color: #e0e0e0;
-    display: block;
-    border: 1px solid black;
-    text-decoration: none;
-    color: inherit;
-  }
-
-  .responsive-block img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-
-  .overlay {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    padding: 0 10px 10px 10px;
-    pointer-events: none;
-    background-color: rgba(250, 250, 250, 0.6);
-  }
-
-  .text-strip {
-    width: 100%;
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    color: black;
-    font-size: 0.9em;
-    font-weight: bold;
-    padding: 0.5em 0.75em;
-    text-align: left;
-    z-index: 2;
-    pointer-events: auto;
-    border: 1px solid #ccc;
-    <!---border-radius: 4px;--->
-  }
-
-  @media (min-width: 600px) {
-    .container {
-      flex-direction: row;
-    }
-  }
-</style>
-
-<!---
-Examples of syntax for project/presentation blocks.
-/--->
-
-<div class="container">
-  <a href="presentations/[Menzo]AFlavorfulAndDarkCascadeForLowScaleLeptogenesis.pdf" class="responsive-block">
-    <img src="{{ './images/thumbnails/fdlslg.svg' | relative_url }}" alt="fdlslg">
-    <div class="overlay">
-      <div class="text-strip">
-        A Flavorful and Dark Cascade for Low-scale Leptogenesis
-      </div>
-    </div>
-  </a>
-
-  <!-- Add more blocks like this if needed -->
-  <a href="/another-page/" class="responsive-block">
-    <img src="{{ './images/thumbnails/mu5e.svg' | relative_url }}" alt="mu5e">
-    <div class="overlay">
-      <div class="text-strip">
-        Heavy and Light New Physics in Rare Muon Decays
-      </div>
-    </div>
-  </a>
-
-</div>
-
-<!---
-## On the horizon
-{: .py-3}
-
-- ***Flavorful low-scale leptogenesis***
-/--->
