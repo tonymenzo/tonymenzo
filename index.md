@@ -22,9 +22,9 @@ mathjax: true
 # **Research** 
 {: .fw-700}
 
-I'm a theoretical particle physicist -- my research focuses on understanding how theoretical models defined at high-energies manifest in experimentally accessible observables. I spend my time (1) developing computational frameworks, methodologies, and algorithms to enable more precise and accurate comparisons between theory and experiment, and (2) investigating, estimating, and constraining novel phenomenology related experimental signatures of theoretical predictions in extensions of the Standard Model.
+I'm a theoretical particle physicist. My research focuses on understanding how theoretical models defined at high energies manifest in experimentally accessible observables. My work involves (1) developing computational frameworks, methodologies, and algorithms to enable more precise and accurate comparisons between theory and experiment, (2) investigating and constraining phenomenology related to experimental signatures of theoretical predictions in extensions of the Standard Model, and (3) building agentic tools and benchmarks for autonomous computation in high-energy physics.
 
-More specifically, I'm interested in model building, machine learning, agentic programming and benchmarking, optimal transport, hadronization, rare lepton decays, effective field theory, proton decay, solutions to the hierarchy problem, tumbling gauge theories, grand unified theories, gauge/gravity duality, cosmology, string phenomenology, functional programming, and more...
+More specifically, I'm currently thinking about hadronization, rare lepton decays, optimal transport, machine learning, agentic programming, and effective field theory. More broadly, I'm interested in model building, grand unified theories, solutions to the hierarchy problem, tumbling, gauge/gravity duality, cosmology, and string phenomenology.
 
 # **Publications**
 {: .fw-700}

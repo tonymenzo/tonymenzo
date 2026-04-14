@@ -65,6 +65,31 @@ permalink: docs/presentations
     font-size: 0.82em;
     margin-top: 0.1em;
   }
+
+  .invited-star {
+    color: #000;
+    font-size: 0.55em;
+    margin-left: 0.15em;
+    vertical-align: super;
+  }
+
+  .talk-key {
+    font-size: 0.92em;
+    margin-top: 1.5rem;
+    border: 1px solid #ccc;
+    padding: 0.4em 0.75em;
+    display: inline-block;
+  }
+
+  .talk-key .invited-star {
+    font-size: 0.65em;
+    vertical-align: baseline;
+    margin-right: 0.4em;
+  }
+
+  .talk-key {
+    font-weight: 700;
+  }
 </style>
 
 ## **Data-driven hadronization models**
@@ -72,8 +97,16 @@ permalink: docs/presentations
 
 <ul class="talk-list">
   <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]EffectiveHadronizationModels_Monash.pdf' | relative_url }}">Conservation laws and effective (string-)hadronization models</a><span class="invited-star">&#9733;</span></div>
+    <div class="talk-meta">Monash HEP Seminar &mdash; March 2, 2026</div>
+  </li>
+  <li>
     <div class="talk-title"><a href="{{ '/presentations/[Menzo]UA_102025.pdf' | relative_url }}">The journey towards differentiable hadronization models</a></div>
     <div class="talk-meta">University of Alabama HEP Seminar &mdash; October 17, 2025</div>
+  </li>
+  <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]MSU.pdf' | relative_url }}">The journey towards differentiable hadronization models</a><span class="invited-star">&#9733;</span></div>
+    <div class="talk-meta">Michigan State University HEP Seminar &mdash; September 30, 2025</div>
   </li>
   <li>
     <div class="talk-title"><a href="{{ '/presentations/[Menzo]Alabama_072025.pdf' | relative_url }}">Differentiable hadronization models, heavy and light new physics in rare lepton decays, and more...</a></div>
@@ -227,22 +260,6 @@ permalink: docs/presentations
 
 ---
 
-## **Invited seminars**
-{: .fw-700 .section-heading}
-
-<ul class="talk-list">
-  <li>
-    <div class="talk-title"><a href="{{ '/presentations/[Menzo]EffectiveHadronizationModels_Monash.pdf' | relative_url }}">Conservation laws and effective (string-)hadronization models</a></div>
-    <div class="talk-meta">Monash HEP Seminar &mdash; March 2, 2026</div>
-  </li>
-  <li>
-    <div class="talk-title"><a href="{{ '/presentations/[Menzo]MSU.pdf' | relative_url }}">The journey towards differentiable hadronization models</a></div>
-    <div class="talk-meta">Michigan State University HEP Seminar &mdash; September 30, 2025</div>
-  </li>
-</ul>
-
----
-
 ## **PhD defense & candidacy exam**
 {: .fw-700 .section-heading}
 
@@ -256,3 +273,5 @@ permalink: docs/presentations
     <div class="talk-meta">University of Cincinnati &mdash; January 26, 2022</div>
   </li>
 </ul>
+
+<div class="talk-key"><span class="invited-star">&#9733;</span> Invited seminar</div>
