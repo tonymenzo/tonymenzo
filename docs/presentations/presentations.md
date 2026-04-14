@@ -124,6 +124,10 @@ permalink: docs/presentations
 
 <ul class="talk-list">
   <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]MuonBridgeTutorial_MIAPbP.pdf' | relative_url }}">MuonBridge "hands-on" tutorial</a></div>
+    <div class="talk-meta">MIAPbP &mdash; April 14, 2026</div>
+  </li>
+  <li>
     <div class="talk-title"><a href="{{ '/presentations/[Menzo]fdLSL_cascade_NPN.pdf' | relative_url }}">A flavorful and dark cascade for low-scale leptogenesis</a></div>
     <div class="talk-meta">NPN 2025 &mdash; June 19, 2025</div>
   </li>

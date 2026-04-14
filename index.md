@@ -135,6 +135,16 @@ More specifically, I'm interested in model building, machine learning, agentic p
 </style>
 
 <div class="project-container">
+  <a href="https://arxiv.org/abs/2604.01465" class="project-block" style="--thumb-scale: 0.9;">
+    <img src="{{ './images/thumbnails/tau_to_5.svg' | relative_url }}" alt="tau_multilepton">
+    <div class="project-top-text special-text">2604.01465</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        New physics in multi-lepton tau decays
+      </div>
+    </div>
+  </a>
+
   <a href="https://arxiv.org/abs/2603.26990" class="project-block" style="--thumb-scale: 1;">
     <img src="{{ './images/thumbnails/task2_flowchart.svg' | relative_url }}" alt="agentic_diagrammatica">
     <div class="project-top-text special-text">2603.26990</div>
