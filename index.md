@@ -26,7 +26,7 @@ I'm a theoretical particle physicist. My research focuses on understanding how t
 
 More specifically, I'm currently thinking about hadronization, rare lepton decays, optimal transport, machine learning, agentic programming, and effective field theory. More broadly, I'm interested in model building, grand unified theories, solutions to the hierarchy problem, tumbling, gauge/gravity duality, cosmology, and string phenomenology.
 
-# **Publications**
+# **Publications/Preprints**
 {: .fw-700}
 
 <style>
