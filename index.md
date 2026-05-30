@@ -135,6 +135,16 @@ More specifically, I'm currently thinking about hadronization, rare lepton decay
 </style>
 
 <div class="project-container">
+  <a href="https://arxiv.org/abs/2605.06768" class="project-block" style="--thumb-scale: 1.15;">
+    <img src="{{ './images/thumbnails/conditionals_around_main_flavor.png' | relative_url }}" alt="gamma_BtoDK_flows">
+    <div class="project-top-text special-text">2605.06768</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Unbinned extraction of &gamma; from B &rarr; DK with normalizing flows
+      </div>
+    </div>
+  </a>
+
   <a href="https://arxiv.org/abs/2604.01465" class="project-block" style="--thumb-scale: 0.9;">
     <img src="{{ './images/thumbnails/tau_to_5.svg' | relative_url }}" alt="tau_multilepton">
     <div class="project-top-text special-text">2604.01465</div>
@@ -346,6 +356,8 @@ More specifically, I'm currently thinking about hadronization, rare lepton decay
 </div>
 
 <!---
+"***Unbinned extraction of $$\gamma$$ from $$B \to DK$$ with normalizing flows***" - ***[2605.06768](https://arxiv.org/abs/2605.06768)*** - Authors: Yuval Grossman, *Tony Menzo*, Stefan Schacht, Chinhsan Sieng, and Jure Zupan
+
 "***Post-hoc reweighting of hadron production in the Lund string model***" - ***[2505.00142](https://arxiv.org/abs/2505.00142)*** - Authors: Benoit Assi, Christian Bierlich, Phil Ilten, *Tony Menzo*, Stephen Mrenna, Manuel Szewc, Micheal Wilkinson, Ahmed Youssef, and Jure Zupan
 
 "***Direct Detection of Ultralight Dark Matter via Charged Lepton Flavor Violation***" - ***[2503.07722](https://arxiv.org/abs/2503.07722)*** - Authors: Innes Bigaran, Patrick Fox, Yann Gouttenoire, Roni Harnik, Gordan Krnjaic, *Tony Menzo*, and Jure Zupan

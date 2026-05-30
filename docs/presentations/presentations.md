@@ -241,6 +241,10 @@ permalink: docs/presentations
 
 <ul class="talk-list">
   <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]TowardAgenticPhenomenology.pdf' | relative_url }}">Toward agentic phenomenology</a></div>
+    <div class="talk-meta">PHENO 2026 &mdash; May 12, 2026</div>
+  </li>
+  <li>
     <div class="talk-title"><a href="{{ '/presentations/[Menzo]AgenticPhenomenology.pdf' | relative_url }}">Agentic phenomenology</a><span class="invited-star">&#9733;</span></div>
     <div class="talk-meta">BNL HEP Theory Seminar &mdash; April 30, 2026</div>
   </li>

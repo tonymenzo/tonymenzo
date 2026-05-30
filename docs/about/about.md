@@ -22,6 +22,10 @@ I'm currently a joint postdoctoral fellow at Fermilab and the University of Alab
 - [Link to my GitHub page].
 - [Link to my CV].
 
+<p style="text-align:center;">
+<strong>Contact:</strong> <a href="mailto:menzo.ynot@gmail.com">menzo.ynot@gmail.com</a>
+</p>
+
 ----
 
 [Link to my INSPIRE page]: https://inspirehep.net/authors/2049582
