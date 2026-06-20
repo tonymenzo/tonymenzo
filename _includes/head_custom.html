@@ -49,6 +49,14 @@ document.addEventListener('DOMContentLoaded', function () {
   </div>`;
   spacer.insertAdjacentElement('afterend', block);
 });
+
+// Open PDF links in a new tab so users don't navigate away from the site
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('a[href$=".pdf"]').forEach(function (a) {
+    a.setAttribute('target', '_blank');
+    a.setAttribute('rel', 'noopener');
+  });
+});
 </script>
 
 

@@ -135,6 +135,16 @@ More specifically, I'm currently thinking about hadronization, rare lepton decay
 </style>
 
 <div class="project-container">
+  <a href="https://arxiv.org/abs/2606.19524" class="project-block" style="--thumb-scale: 1.18;">
+    <img src="{{ './images/thumbnails/vistas_heavy_ion.png' | relative_url }}" alt="vistas">
+    <div class="project-top-text special-text">2606.19524</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Vistas: A Visualization Interface for Particle Collision Simulations
+      </div>
+    </div>
+  </a>
+
   <a href="https://arxiv.org/abs/2605.06768" class="project-block" style="--thumb-scale: 1.15;">
     <img src="{{ './images/thumbnails/conditionals_around_main_flavor.png' | relative_url }}" alt="gamma_BtoDK_flows">
     <div class="project-top-text special-text">2605.06768</div>

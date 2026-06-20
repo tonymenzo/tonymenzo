@@ -157,6 +157,10 @@ permalink: docs/presentations
 
 <ul class="talk-list">
   <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]ULDM_via_CLFV.pdf' | relative_url }}">Detecting Ultralight DM via CLFV</a><span class="invited-star">&#9733;</span></div>
+    <div class="talk-meta">CLFV 2026 &mdash; June 19, 2026</div>
+  </li>
+  <li>
     <div class="talk-title"><a href="{{ '/presentations/[Menzo]MuonBridgeTutorial_MIAPbP.pdf' | relative_url }}">MuonBridge "hands-on" tutorial</a></div>
     <div class="talk-meta">MIAPbP &mdash; April 14, 2026</div>
   </li>
@@ -213,16 +217,24 @@ permalink: docs/presentations
     <div class="talk-meta">Berkeley Nuclear Theory Seminar &mdash; May 2, 2024</div>
   </li>
   <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]dLSLG_PIKIMO23.pdf' | relative_url }}">Dark low-scale leptogenesis</a></div>
+    <div class="talk-meta">PIKIMO @ tOSU &mdash; April 29, 2023</div>
+  </li>
+</ul>
+
+---
+
+## **Optimal transport**
+{: .fw-700 .section-heading}
+
+<ul class="talk-list">
+  <li>
     <div class="talk-title"><a href="{{ '/presentations/[Menzo]EMD4CPV_UCB_4D.pdf' | relative_url }}">Optimal transport and CP violation: the Dalitz Mover's Distance</a></div>
     <div class="talk-meta">4D Seminar &mdash; February 12, 2024</div>
   </li>
   <li>
     <div class="talk-title"><a href="{{ '/presentations/[Menzo]EMD4CPV_PHENO23.pdf' | relative_url }}">Earth Mover's Distance and CP-violation</a></div>
     <div class="talk-meta">PHENO 2023 &mdash; May 8, 2023</div>
-  </li>
-  <li>
-    <div class="talk-title"><a href="{{ '/presentations/[Menzo]dLSLG_PIKIMO23.pdf' | relative_url }}">Dark low-scale leptogenesis</a></div>
-    <div class="talk-meta">PIKIMO @ tOSU &mdash; April 29, 2023</div>
   </li>
   <li>
     <div class="talk-title"><a href="{{ '/presentations/[Menzo]EMD_CPV_poster.pdf' | relative_url }}">The Earth Mover's Distance as a measure of CP violation</a></div>
@@ -240,6 +252,10 @@ permalink: docs/presentations
 {: .fw-700 .section-heading}
 
 <ul class="talk-list">
+  <li>
+    <div class="talk-title chalk">Agentic systems for hep-ph</div>
+    <div class="talk-meta">AI Reasoning in Theoretical Physics, Aspen (chalk talk) &mdash; June 8, 2026</div>
+  </li>
   <li>
     <div class="talk-title"><a href="{{ '/presentations/[Menzo]TowardAgenticPhenomenology.pdf' | relative_url }}">Toward agentic phenomenology</a></div>
     <div class="talk-meta">PHENO 2026 &mdash; May 12, 2026</div>
