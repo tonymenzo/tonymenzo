@@ -92,6 +92,42 @@ permalink: docs/presentations
   }
 </style>
 
+## **Agentic phenomenology**
+{: .fw-700 .section-heading}
+
+<ul class="talk-list">
+  <li>
+    <div class="talk-title chalk">Agentic systems for hep-ph</div>
+    <div class="talk-meta">AI Reasoning in Theoretical Physics, Aspen (chalk talk) &mdash; June 8, 2026</div>
+  </li>
+  <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]TowardAgenticPhenomenology.pdf' | relative_url }}">Toward agentic phenomenology</a></div>
+    <div class="talk-meta">PHENO 2026 &mdash; May 12, 2026</div>
+  </li>
+  <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]AgenticPhenomenology.pdf' | relative_url }}">Agentic phenomenology</a><span class="invited-star">&#9733;</span></div>
+    <div class="talk-meta">BNL HEP Theory Seminar &mdash; April 30, 2026</div>
+  </li>
+  <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]AgenticProgrammingTutorial_NeutrinoDiv.pdf' | relative_url }}">Agents in HEP(-ex)</a></div>
+    <div class="talk-meta">Fermilab Neutrino Division &mdash; January 22, 2026</div>
+  </li>
+  <li>
+    <div class="talk-title chalk">Agents in HEP(-ph/-th)</div>
+    <div class="talk-meta">Fermilab Theory Division (chalk talk) &mdash; January 21, 2026</div>
+  </li>
+  <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]AgenticProgrammingTutorial_CMSDAS.pdf' | relative_url }}">(HEP-focused) Agentic programming</a></div>
+    <div class="talk-meta">CMSDAS, Fermilab &mdash; January 13, 2026</div>
+  </li>
+  <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]AgentsInHEP.pdf' | relative_url }}">Agents in HEP</a></div>
+    <div class="talk-meta">U. Miami Physics Conference &mdash; December 16, 2025</div>
+  </li>
+</ul>
+
+---
+
 ## **Data-driven hadronization models**
 {: .fw-700 .section-heading}
 
@@ -243,42 +279,6 @@ permalink: docs/presentations
   <li>
     <div class="talk-title"><a href="{{ '/presentations/[Menzo]EMD_CPV_PIKIMO.pdf' | relative_url }}">The Wasserstein distance for CP-violation</a></div>
     <div class="talk-meta">PIKIMO 13 &mdash; November 12, 2022</div>
-  </li>
-</ul>
-
----
-
-## **Agentic programming in HEP**
-{: .fw-700 .section-heading}
-
-<ul class="talk-list">
-  <li>
-    <div class="talk-title chalk">Agentic systems for hep-ph</div>
-    <div class="talk-meta">AI Reasoning in Theoretical Physics, Aspen (chalk talk) &mdash; June 8, 2026</div>
-  </li>
-  <li>
-    <div class="talk-title"><a href="{{ '/presentations/[Menzo]TowardAgenticPhenomenology.pdf' | relative_url }}">Toward agentic phenomenology</a></div>
-    <div class="talk-meta">PHENO 2026 &mdash; May 12, 2026</div>
-  </li>
-  <li>
-    <div class="talk-title"><a href="{{ '/presentations/[Menzo]AgenticPhenomenology.pdf' | relative_url }}">Agentic phenomenology</a><span class="invited-star">&#9733;</span></div>
-    <div class="talk-meta">BNL HEP Theory Seminar &mdash; April 30, 2026</div>
-  </li>
-  <li>
-    <div class="talk-title"><a href="{{ '/presentations/[Menzo]AgenticProgrammingTutorial_NeutrinoDiv.pdf' | relative_url }}">Agents in HEP(-ex)</a></div>
-    <div class="talk-meta">Fermilab Neutrino Division &mdash; January 22, 2026</div>
-  </li>
-  <li>
-    <div class="talk-title chalk">Agents in HEP(-ph/-th)</div>
-    <div class="talk-meta">Fermilab Theory Division (chalk talk) &mdash; January 21, 2026</div>
-  </li>
-  <li>
-    <div class="talk-title"><a href="{{ '/presentations/[Menzo]AgenticProgrammingTutorial_CMSDAS.pdf' | relative_url }}">(HEP-focused) Agentic programming</a></div>
-    <div class="talk-meta">CMSDAS, Fermilab &mdash; January 13, 2026</div>
-  </li>
-  <li>
-    <div class="talk-title"><a href="{{ '/presentations/[Menzo]AgentsInHEP.pdf' | relative_url }}">Agents in HEP</a></div>
-    <div class="talk-meta">U. Miami Physics Conference &mdash; December 16, 2025</div>
   </li>
 </ul>
 

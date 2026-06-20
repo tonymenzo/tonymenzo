@@ -46,13 +46,16 @@ document.addEventListener('DOMContentLoaded', function () {
     <a href="https://arxiv.org/search/?searchtype=author&query=Tony%20Menzo" target="_blank" rel="noopener">
       <img src="{{ '/assets/icons/arxiv.svg' | relative_url }}" alt="arXiv" style="width:17px; height:17px;">
     </a>
+    <a href="mailto:menzo.ynot@gmail.com">
+      <img src="{{ '/assets/icons/mail.svg' | relative_url }}" alt="Email" style="width:17px; height:17px;">
+    </a>
   </div>`;
   spacer.insertAdjacentElement('afterend', block);
 });
 
-// Open PDF links in a new tab so users don't navigate away from the site
+// Open PDF links and project thumbnails in a new tab so users don't navigate away from the site
 document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('a[href$=".pdf"]').forEach(function (a) {
+  document.querySelectorAll('a[href$=".pdf"], a.project-block').forEach(function (a) {
     a.setAttribute('target', '_blank');
     a.setAttribute('rel', 'noopener');
   });
