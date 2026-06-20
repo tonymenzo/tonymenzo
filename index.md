@@ -196,7 +196,7 @@ More specifically, I'm currently thinking about hadronization, rare lepton decay
   </a>
 
   <a href="https://arxiv.org/abs/2512.15867" class="project-block" style="--thumb-scale: 1;">
-    <img src="{{ './images/thumbnails/code/heptapod_diagram_focused.svg' | relative_url }}" alt="iHOMER">
+    <img src="{{ './images/thumbnails/code/heptapod_diagram_focused.svg' | relative_url }}" alt="HEPTAPOD">
     <div class="project-top-text special-text">2512.15867</div>
     <div class="project-overlay">
       <div class="project-text-strip">
