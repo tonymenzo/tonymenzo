@@ -135,6 +135,16 @@ More specifically, I'm currently thinking about hadronization, rare lepton decay
 </style>
 
 <div class="project-container">
+  <a href="https://arxiv.org/abs/2609.00107" class="project-block" style="--thumb-scale: 0.85;">
+    <img src="{{ './images/thumbnails/agentic_harness_stack.svg' | relative_url }}" alt="agentic_harness">
+    <div class="project-top-text special-text">2609.00107</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Reining in an Agentic Harness for High Energy Physics
+      </div>
+    </div>
+  </a>
+
   <a href="https://arxiv.org/abs/2606.19524" class="project-block" style="--thumb-scale: 1.18;">
     <img src="{{ './images/thumbnails/vistas_heavy_ion.png' | relative_url }}" alt="vistas">
     <div class="project-top-text special-text">2606.19524</div>
