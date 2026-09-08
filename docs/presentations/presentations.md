@@ -97,6 +97,14 @@ permalink: docs/presentations
 
 <ul class="talk-list">
   <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]PortableAgenticPhenomenology_UC.pdf' | relative_url }}">Portable agentic phenomenology</a></div>
+    <div class="talk-meta">University of Cincinnati HEP/Astro Seminar &mdash; September 4, 2026</div>
+  </li>
+  <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]PortableAgenticPhenomenology_CSU.pdf' | relative_url }}">Portable agentic phenomenology</a><span class="invited-star">&#9733;</span></div>
+    <div class="talk-meta">Colorado State University HEPPA Seminar &mdash; September 1, 2026</div>
+  </li>
+  <li>
     <div class="talk-title chalk">Agentic systems for hep-ph</div>
     <div class="talk-meta">AI Reasoning in Theoretical Physics, Aspen (chalk talk) &mdash; June 8, 2026</div>
   </li>
