@@ -97,6 +97,14 @@ permalink: docs/presentations
 
 <ul class="talk-list">
   <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]HarnessHEPineering.pdf' | relative_url }}">Harness HEPineering</a></div>
+    <div class="talk-meta">Agentic AI in HEP Workshop @ FNAL LPC &mdash; September 11, 2026</div>
+  </li>
+  <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]BenchmarkingWithHEPTAPOD.pdf' | relative_url }}">Benchmarking with HEPTAPOD</a></div>
+    <div class="talk-meta">Agentic AI in HEP Workshop @ FNAL LPC &mdash; September 9, 2026</div>
+  </li>
+  <li>
     <div class="talk-title"><a href="{{ '/presentations/[Menzo]PortableAgenticPhenomenology_UC.pdf' | relative_url }}">Portable agentic phenomenology</a></div>
     <div class="talk-meta">University of Cincinnati HEP/Astro Seminar &mdash; September 4, 2026</div>
   </li>
