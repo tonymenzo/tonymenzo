@@ -149,6 +149,10 @@ permalink: docs/presentations
 
 <ul class="talk-list">
   <li>
+    <div class="talk-title"><a href="{{ '/presentations/[Menzo]MLTuning.pdf' | relative_url }}">Tuning data-driven hadronization models</a><span class="invited-star">&#9733;</span></div>
+    <div class="talk-meta">LPCC MCWG Tuning Forum &mdash; September 22, 2026</div>
+  </li>
+  <li>
     <div class="talk-title"><a href="{{ '/presentations/[Menzo]EffectiveHadronizationModels_Monash.pdf' | relative_url }}">Conservation laws and effective (string-)hadronization models</a><span class="invited-star">&#9733;</span></div>
     <div class="talk-meta">Monash HEP Seminar &mdash; March 2, 2026</div>
   </li>
@@ -314,4 +318,4 @@ permalink: docs/presentations
   </li>
 </ul>
 
-<div class="talk-key"><span class="invited-star">&#9733;</span> Invited seminar</div>
+<div class="talk-key"><span class="invited-star">&#9733;</span> Invited talk</div>
