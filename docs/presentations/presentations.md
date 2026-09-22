@@ -318,4 +318,4 @@ permalink: docs/presentations
   </li>
 </ul>
 
-<div class="talk-key"><span class="invited-star">&#9733;</span> Invited seminar</div>
+<div class="talk-key"><span class="invited-star">&#9733;</span> Invited talk</div>
