@@ -65,6 +65,22 @@ document.addEventListener('DOMContentLoaded', function () {
     a.setAttribute('rel', 'noopener');
   });
 });
+
+// Count PDF downloads (CV, slides, notes) as GoatCounter events; no-op when GoatCounter isn't loaded
+function countPdfClick(e) {
+  if (e.type === 'auxclick' && e.button !== 1) return;  // only middle-click among auxclicks
+  const a = e.target.closest && e.target.closest('a[href]');
+  if (!a || !window.goatcounter || !window.goatcounter.count) return;
+  const url = new URL(a.href, location.href);
+  if (!/\.pdf$/i.test(url.pathname)) return;
+  window.goatcounter.count({
+    path:  url.host === location.host ? decodeURIComponent(url.pathname) : url.href,
+    title: a.textContent.trim() || 'PDF download',
+    event: true,
+  });
+}
+document.addEventListener('click', countPdfClick);
+document.addEventListener('auxclick', countPdfClick);
 </script>
 
 
