@@ -8,6 +8,11 @@
 {% endif %}
 <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
 
+{% if site.goatcounter and jekyll.environment == "production" %}
+  <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+{% endif %}
+
 <style>
   .sidebar-profile{padding:0 0rem 0rem;text-align:center}
   .sidebar-profile img{width:90px;height:90px;border-radius:50%;object-fit:cover;display:block;margin:0 auto .5rem}
