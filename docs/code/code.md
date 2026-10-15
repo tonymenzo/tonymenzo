@@ -9,6 +9,9 @@ mathjax: true
 # **Code**
 {: .fw-700}
 
+1. TOC
+{:toc}
+
 A number of my publications are accompanied by open-source software. Relevant repositories are linked below.
 
 <style>
@@ -43,6 +46,12 @@ A number of my publications are accompanied by open-source software. Relevant re
     display: block;
     image-rendering: crisp-edges;
     image-rendering: -webkit-optimize-contrast;
+  }
+
+  .orchestral-anim {
+    display: block;
+    width: 100%;
+    height: 100%;
   }
 
   .project-overlay {
@@ -97,6 +106,42 @@ A number of my publications are accompanied by open-source software. Relevant re
     text-decoration: underline;
   }
 
+  #markdown-toc strong {
+    font-weight: normal;
+  }
+
+  #markdown-toc a:hover strong {
+    text-decoration: underline;
+  }
+
+  .section-heading {
+    border: 1px solid black;
+    padding: 0.4em 0.75em;
+    display: block;
+    text-align: center;
+  }
+
+  .main-content .section-heading {
+    margin-bottom: 1.5rem;
+  }
+
+  .project-roles {
+    display: flex;
+    gap: 0.3em;
+    margin-top: 0.25em;
+  }
+
+  .project-role {
+    padding: 0 0.4em;
+    border: 1px solid rgba(90, 90, 90, 0.55);
+    border-radius: 2px;
+    font-size: 0.6em;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(70, 70, 70, 1);
+  }
+
   .project-top-text {
     position: absolute;
     bottom: 0px;
@@ -126,14 +171,21 @@ A number of my publications are accompanied by open-source software. Relevant re
 }
 </style>
 
+## **Agentic Infrastructure**
+{: .fw-700 .section-heading}
+
 <div class="project-container">
 
-  <div class="project-block" style="--thumb-scale: 1;" onclick="window.location.href='https://github.com/tonymenzo/heptapod'">
-    <img src="{{ './images/thumbnails/code/heptapod_diagram_focused.svg' | relative_url }}" alt="RSA">
+  <div class="project-block" style="--thumb-scale: 0.55;" onclick="window.location.href='https://github.com/tonymenzo/heptapod'">
+    <img src="{{ './images/thumbnails/code/heptapod_logo.svg' | relative_url }}" alt="HEPTAPOD" style="transform: scale(0.7);">
     <div class="project-top-text special-text">HEPTAPOD</div>
     <div class="project-overlay">
       <div class="project-text-strip">
         HEP Toolkit for Agentic Planning, Orchestration, and Deployment
+        <!-- <div class="project-roles">
+          <span class="project-role">author</span>
+          <span class="project-role">maintainer</span>
+        </div> -->
       </div>
       <div class="project-subtext-strip">
         Based on:
@@ -143,6 +195,135 @@ A number of my publications are accompanied by open-source software. Relevant re
     </div>
   </div>
 
+  <div class="project-block" style="--thumb-scale: 0.95;" onclick="window.location.href='https://github.com/tonymenzo/toolbench'">
+    <img src="{{ './images/thumbnails/code/toolbench_llp_allsystems.svg' | relative_url }}" alt="toolbench">
+    <div class="project-top-text special-text">toolbench</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Benchmarking Agentic Tools and Harnesses
+        <!-- <div class="project-roles">
+          <span class="project-role">author</span>
+          <span class="project-role">maintainer</span>
+        </div> -->
+      </div>
+      <div class="project-subtext-strip">
+        Based on:
+        <a href="https://arxiv.org/abs/2610.18454" onclick="event.stopPropagation()">2610.18454</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-block" style="--thumb-scale: 1;" onclick="window.location.href='https://github.com/tonymenzo/hepbench'">
+    <img src="{{ './images/thumbnails/code/hepbench_forward_llp.svg' | relative_url }}" alt="hepbench">
+    <div class="project-top-text special-text">HEPBench</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Agentic Benchmarks for High Energy Physics
+        <!-- <div class="project-roles">
+          <span class="project-role">author</span>
+          <span class="project-role">maintainer</span>
+        </div> -->
+      </div>
+      <div class="project-subtext-strip">
+        Based on:
+        <a href="https://arxiv.org/abs/2610.18454" onclick="event.stopPropagation()">2610.18454</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-block" style="--thumb-scale: 0.95;" onclick="window.location.href='https://github.com/alexr314/toolbase'">
+    <img src="{{ './images/thumbnails/code/toolbase_stack.svg' | relative_url }}" alt="toolbase">
+    <div class="project-top-text special-text">toolbase</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Package Manager for Agent Toolkits
+        <!-- <div class="project-roles">
+          <span class="project-role">co-author</span>
+          <span class="project-role">maintainer</span>
+        </div> -->
+      </div>
+      <div class="project-subtext-strip">
+        Based on:
+        <a href="https://arxiv.org/abs/2609.00107" onclick="event.stopPropagation()">2609.00107</a>,
+        <a href="https://arxiv.org/abs/2610.18454" onclick="event.stopPropagation()">2610.18454</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-block" style="--thumb-scale: 1;" onclick="window.location.href='https://github.com/orchestralAI/orchestral-ai'">
+    <canvas class="orchestral-anim" aria-label="Orchestral logo animation"></canvas>
+    <div class="project-top-text special-text">Orchestral</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Provider-Agnostic Agent Orchestration
+        <!-- <div class="project-roles">
+          <span class="project-role">contributor</span>
+          <span class="project-role">maintainer</span>
+        </div> -->
+      </div>
+      <div class="project-subtext-strip">
+        Based on:
+        <a href="https://arxiv.org/abs/2601.02577" onclick="event.stopPropagation()">2601.02577</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--- Orchestral logo animation, adapted from orchestral-ai.com --->
+<script>
+(function () {
+  var canvas = document.querySelector('.orchestral-anim');
+  if (!canvas) return;
+  var ctx = canvas.getContext('2d');
+  var block = canvas.closest('.project-block');
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var phase = 0, speed = 1, targetSpeed = 1;
+
+  function resize() {
+    var dpr = window.devicePixelRatio || 1;
+    canvas.width = canvas.clientWidth * dpr;
+    canvas.height = canvas.clientHeight * dpr;
+  }
+
+  function draw() {
+    var w = canvas.width, h = canvas.height;
+    var r = Math.min(w, h) / 3.4, cy = h / 2;
+    ctx.clearRect(0, 0, w, h);
+    ctx.strokeStyle = 'rgba(10, 34, 78, 0.85)';
+    ctx.lineWidth = Math.max(1.5, r / 60);
+    [3, 4, 5, 6, 7, 8, 9].forEach(function (n) {
+      ctx.beginPath();
+      for (var a = 0; a <= 200; a++) {
+        var t = a / 200 * 2 * Math.PI;
+        var rho = 1 + 0.1 * Math.cos(n * t + phase);
+        var x = w / 2 + rho * Math.cos(t + phase / 6) * r;
+        var y = cy + rho * Math.sin(t + phase / 6) * r;
+        a === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+      }
+      ctx.closePath();
+      ctx.stroke();
+    });
+  }
+
+  function tick() {
+    speed += 0.05 * (targetSpeed - speed);
+    phase = (phase + 12 * Math.PI / 600 * speed) % (12 * Math.PI);
+    draw();
+    requestAnimationFrame(tick);
+  }
+
+  block.addEventListener('mouseenter', function () { targetSpeed = 2; });
+  block.addEventListener('mouseleave', function () { targetSpeed = 1; });
+  window.addEventListener('resize', function () { resize(); draw(); });
+  resize();
+  reduceMotion ? draw() : tick();
+})();
+</script>
+
+## **Phenomenology & Machine Learning**
+{: .fw-700 .section-heading}
+
+<div class="project-container">
   <div class="project-block" style="--thumb-scale: 0.9;" onclick="window.location.href='https://gitlab.com/uchep/mlhad'">
     <img src="{{ './images/thumbnails/code/MLHAD_logo.svg' | relative_url }}" alt="MLHAD">
     <div class="project-top-text special-text">MLHAD</div>
@@ -207,10 +388,10 @@ A number of my publications are accompanied by open-source software. Relevant re
   </div>
 </div>
 
-# **Tutorials**
-{: .fw-700}
+## **Tutorials**
+{: .fw-700 .section-heading}
 
-I have also contributed to a set of nice tutorials related to Monte-Carlo event generation. The public repository is linked below.
+Contributed tutorials on Monte Carlo event generation.
 
 <div class="project-container">
   <div class="project-block" style="--thumb-scale: 1;" onclick="window.location.href='https://gitlab.com/mcgen-ct/tutorials'">
@@ -219,6 +400,9 @@ I have also contributed to a set of nice tutorials related to Monte-Carlo event 
     <div class="project-overlay">
       <div class="project-text-strip">
         MCgen - Monte Carlo Event Generation Tutorials
+        <!-- <div class="project-roles">
+          <span class="project-role">contributor</span>
+        </div> -->
       </div>
     </div>
   </div>
