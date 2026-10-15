@@ -255,7 +255,7 @@ A number of my publications are accompanied by open-source software. Relevant re
     <div class="project-top-text special-text">Orchestral</div>
     <div class="project-overlay">
       <div class="project-text-strip">
-        Provider-Agnostic Agent Orchestration
+        Provider-Agnostic Agent Harness
         <!-- <div class="project-roles">
           <span class="project-role">contributor</span>
           <span class="project-role">maintainer</span>
