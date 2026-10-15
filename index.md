@@ -145,6 +145,16 @@ More specifically, I'm currently thinking about hadronization, rare lepton decay
     </div>
   </a>
 
+  <a href="https://arxiv.org/abs/2610.19111" class="project-block" style="--thumb-scale: 0.85;">
+    <img src="{{ './images/thumbnails/pythia_logo.png' | relative_url }}" alt="pythia_contrib">
+    <div class="project-top-text special-text">2610.19111</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Pythia-Contrib: a modular contribution framework for the Pythia 8 event generator
+      </div>
+    </div>
+  </a>
+
   <a href="https://arxiv.org/abs/2609.00107" class="project-block" style="--thumb-scale: 0.85;">
     <img src="{{ './images/thumbnails/agentic_harness_stack.svg' | relative_url }}" alt="agentic_harness">
     <div class="project-top-text special-text">2609.00107</div>
