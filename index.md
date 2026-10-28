@@ -135,6 +135,16 @@ More specifically, I'm currently thinking about hadronization, rare lepton decay
 </style>
 
 <div class="project-container">
+  <a href="https://arxiv.org/abs/2610.28505" class="project-block" style="--thumb-scale: 0.9;">
+    <img src="{{ './images/thumbnails/ai_theory_blueprint.svg' | relative_url }}" alt="ai_theory_blueprint">
+    <div class="project-top-text special-text">2610.28505</div>
+    <div class="project-overlay">
+      <div class="project-text-strip">
+        Blueprint for an AI-Enabled Particle Theory Community
+      </div>
+    </div>
+  </a>
+
   <a href="https://arxiv.org/abs/2610.18454" class="project-block" style="--thumb-scale: 0.95;">
     <img src="{{ './images/thumbnails/heptabench_six_sphere.svg' | relative_url }}" alt="heptabench">
     <div class="project-top-text special-text">2610.18454</div>
