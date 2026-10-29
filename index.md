@@ -22,9 +22,9 @@ mathjax: true
 # **Research** 
 {: .fw-700}
 
-I'm a theoretical particle physicist. My research focuses on understanding how theoretical models defined at high energies manifest in experimentally accessible observables. My work involves (1) developing computational frameworks, methodologies, and algorithms to enable more precise and accurate comparisons between theory and experiment, (2) investigating and constraining phenomenology related to experimental signatures of theoretical predictions in extensions of the Standard Model, and (3) building agentic tools and benchmarks for autonomous computation in high-energy physics.
+I'm a theoretical particle physicist. My research focuses on understanding how theoretical models defined at high energies manifest in experimentally accessible observables. My work involves (1) developing *computational frameworks, methodologies, and algorithms to enable more precise and accurate comparisons between theory and experiment*, (2) investigating and constraining *phenomenology related to experimental signatures of theoretical predictions in extensions of the Standard Model*, and (3) building *reliable agentic systems and benchmarks for autonomous phenomenology*.
 
-More specifically, I'm currently thinking about hadronization, rare lepton decays, optimal transport, machine learning, agentic programming, and effective field theory. More broadly, I'm interested in model building, grand unified theories, solutions to the hierarchy problem, tumbling, gauge/gravity duality, cosmology, and string phenomenology.
+More specifically, I'm currently thinking about agentic systems for phenomenology, analytic hadronization models, rare decays, time-dependent signatures from ultralight dark matter, optimal transport, time-dependent CP violation, differentiable event simulations, and effective field theory. More broadly, I'm interested in model building, grand unified theories, solutions to the hierarchy problem, tumbling, gauge/gravity duality, cosmology, and string phenomenology.
 
 # **Publications/Preprints**
 {: .fw-700}
